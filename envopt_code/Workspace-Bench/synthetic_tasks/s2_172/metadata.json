@@ -1,0 +1,14 @@
+{
+  "absolute_id": "s2_172",
+  "id": "s2_172",
+  "file_system": "行政/后勤人员",
+  "persona": "Logistics Manager",
+  "job": "Logistics Manager",
+  "user_profit": "行政/后勤人员",
+  "task": "Merge `9_Common_HR_Functions.xlsx`, `Common_Table_Functions_And_Application_Scenarios_For_HR.xlsx` and `WPS_Formula_Functions_Charts_And_Common_Tips.xlsx` into one function index recording what each function does, which HR task it serves and which file documents it. Deduplicate functions appearing in more than one source, and note where two files describe the same function differently, since one of them is likely out of date.",
+  "output_files": [
+    "hr_function_index.docx"
+  ],
+  "task_diff": "medium",
+  "data_manifest": []
+}

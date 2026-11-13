@@ -1,0 +1,14 @@
+{
+  "absolute_id": "s2_062",
+  "id": "s2_062",
+  "file_system": "开发人员",
+  "persona": "Backend Developer",
+  "job": "Backend Developer",
+  "user_profit": "开发人员",
+  "task": "Reconcile `code_coverage_report_2025Q1.md` with `automated_test_coverage_report_2024_q4.md` and the checklists in the test-cases folder. Which modules are weakly covered in both periods rather than just one, and which have test cases written but no coverage recorded against them?",
+  "output_files": [
+    "test_coverage_gaps.docx"
+  ],
+  "task_diff": "medium",
+  "data_manifest": []
+}

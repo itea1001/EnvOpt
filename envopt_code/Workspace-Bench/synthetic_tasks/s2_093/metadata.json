@@ -1,0 +1,14 @@
+{
+  "absolute_id": "s2_093",
+  "id": "s2_093",
+  "file_system": "研究人员",
+  "persona": "Researcher",
+  "job": "Researcher",
+  "user_profit": "研究人员",
+  "task": "The Test_Projects python folder holds eight modules from `data_process.py` to `web_network.py`, covering data processing, database access, imaging, machine learning, parsing, utilities, visualisation and networking. Work out which external libraries they need between them and deduplicate. Write the result as a requirements list, marking any import you could not resolve to a package name.",
+  "output_files": [
+    "test_projects_requirements.txt"
+  ],
+  "task_diff": "medium",
+  "data_manifest": []
+}

@@ -1,0 +1,14 @@
+{
+  "absolute_id": "s2_193",
+  "id": "s2_193",
+  "file_system": "行政/后勤人员",
+  "persona": "Logistics Manager",
+  "job": "Logistics Manager",
+  "user_profit": "行政/后勤人员",
+  "task": "Join `current_inventory_master_list_2024_12.xlsx` with `2024_inventory_inbound_outbound_summary_ledger.xlsx` so each item shows its stock level and its movement across the year. Bring in the restock cycle sheet and the alert rules to identify items sitting below threshold, checking those against the low inventory procurement request form to find the ones nobody has actually requested. Check the monthly stocktaking reports too for items whose counted quantity never matches the ledger, since a persistent discrepancy is a process problem rather than a counting error.",
+  "output_files": [
+    "inventory_health.xlsx"
+  ],
+  "task_diff": "hard",
+  "data_manifest": []
+}

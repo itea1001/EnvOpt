@@ -1,0 +1,14 @@
+{
+  "absolute_id": "s2_155",
+  "id": "s2_155",
+  "file_system": "运营人员",
+  "persona": "Operations Manager",
+  "job": "Operations Manager",
+  "user_profit": "运营人员",
+  "task": "Build one view per KOL by joining the collaboration contract ledger with the Q3-Q4 placement performance tracking and the 2025 quotation and price comparison sheet, so each shows what was contracted, what was quoted and what was delivered. Identify anyone paid above their quoted rate and any contract with no performance record behind it. Score each against the collaboration management manual, then cross-check the brand-side KOL performance tracking sheet and flag anyone the two sources rate differently, since a KOL rated well by one team and badly by another is where money quietly leaks.",
+  "output_files": [
+    "kol_audit.xlsx"
+  ],
+  "task_diff": "hard",
+  "data_manifest": []
+}

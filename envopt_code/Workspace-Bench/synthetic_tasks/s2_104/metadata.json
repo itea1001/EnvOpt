@@ -1,0 +1,14 @@
+{
+  "absolute_id": "s2_104",
+  "id": "s2_104",
+  "file_system": "研究人员",
+  "persona": "Researcher",
+  "job": "Researcher",
+  "user_profit": "研究人员",
+  "task": "The templates folder holds both templates and checklists — an academic essay checklist, a research paper checklist and a publication formatting checklist. Check whether the proposal and paper templates actually satisfy those checklists. List the checklist items no template addresses, since those are the ones a writer will miss.",
+  "output_files": [
+    "templates_vs_checklists.docx"
+  ],
+  "task_diff": "medium",
+  "data_manifest": []
+}

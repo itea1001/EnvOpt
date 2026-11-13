@@ -1,0 +1,14 @@
+{
+  "absolute_id": "s2_066",
+  "id": "s2_066",
+  "file_system": "开发人员",
+  "persona": "Backend Developer",
+  "job": "Backend Developer",
+  "user_profit": "开发人员",
+  "task": "The performance-tests folder mixes JMH benchmarks, Gatling scenarios, `K6LoadTest.js`, `LocustLoadTest.py`, `JmeterTestPlan.jmx` and plain Java stress tests. Produce one inventory saying what each tool is used for here and what it targets, and identify where two of them are testing the same thing, since that is duplicated maintenance nobody has noticed.",
+  "output_files": [
+    "performance_test_inventory.docx"
+  ],
+  "task_diff": "medium",
+  "data_manifest": []
+}

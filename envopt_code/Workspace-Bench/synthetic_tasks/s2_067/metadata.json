@@ -1,0 +1,14 @@
+{
+  "absolute_id": "s2_067",
+  "id": "s2_067",
+  "file_system": "开发人员",
+  "persona": "Backend Developer",
+  "job": "Backend Developer",
+  "user_profit": "开发人员",
+  "task": "Compare `.env.development`, `.env.staging` and `.env.production` key by key and produce a table showing every key and its value in each environment. Mark keys existing in some environments but not others, and values differing in a way `environment_matrix.md` does not account for. Using `configuration_audit_log.md`, say for each unexplained difference whether a recorded change accounts for it or whether it simply drifted.",
+  "output_files": [
+    "env_drift.md"
+  ],
+  "task_diff": "hard",
+  "data_manifest": []
+}

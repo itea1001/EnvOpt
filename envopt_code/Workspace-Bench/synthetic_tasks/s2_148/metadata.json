@@ -1,0 +1,14 @@
+{
+  "absolute_id": "s2_148",
+  "id": "s2_148",
+  "file_system": "运营人员",
+  "persona": "Operations Manager",
+  "job": "Operations Manager",
+  "user_profit": "运营人员",
+  "task": "`instant_retail_platform_competitive_landscape_comparison_matrix.xlsx` and `market_competition_situation_analysis_report_2024.pdf` cover the same competitors. Check whether the matrix actually supports the report's conclusions and flag any claim it does not. Present the result as a deck, marking the unsupported claims clearly and separating those the matrix contradicts from those it simply does not address, since the first means the report is wrong and the second only means it went further than the evidence. Where the matrix and the report disagree about a competitor's position, say which of the two is more recent, because a stale matrix and a wrong conclusion look identical from the outside.",
+  "output_files": [
+    "competitive_landscape.pptx"
+  ],
+  "task_diff": "hard",
+  "data_manifest": []
+}

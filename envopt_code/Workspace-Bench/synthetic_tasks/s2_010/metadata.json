@@ -1,0 +1,14 @@
+{
+  "absolute_id": "s2_010",
+  "id": "s2_010",
+  "file_system": "产品人员",
+  "persona": "Product Manager",
+  "job": "Product Manager",
+  "user_profit": "产品人员",
+  "task": "I can never find the right privacy document when I need it. List everything in the user_privacy_policy folder with a line saying what each one is for and who would need it, and leave the index in that folder so it stays with the documents.",
+  "output_files": [
+    "privacy_docs_index.md"
+  ],
+  "task_diff": "medium",
+  "data_manifest": []
+}

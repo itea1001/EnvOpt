@@ -1,0 +1,14 @@
+{
+  "absolute_id": "s2_174",
+  "id": "s2_174",
+  "file_system": "行政/后勤人员",
+  "persona": "Logistics Manager",
+  "job": "Logistics Manager",
+  "user_profit": "行政/后勤人员",
+  "task": "Compare `common_service_provider_emergency_contact_list.xlsx` with `contacts_of_persons_in_charge_for_each_functional_area.xlsx` and `service_provider_emergency_response_manual.docx`. Does every provider named in the manual appear in the contact list, and does every functional area have a named person against it? Report both gaps.",
+  "output_files": [
+    "supplier_contact_check.doc"
+  ],
+  "task_diff": "medium",
+  "data_manifest": []
+}

@@ -1,0 +1,14 @@
+{
+  "absolute_id": "s2_184",
+  "id": "s2_184",
+  "file_system": "行政/后勤人员",
+  "persona": "Logistics Manager",
+  "job": "Logistics Manager",
+  "user_profit": "行政/后勤人员",
+  "task": "`enterprise_procurement_and_accounts_payable_system.xlsx` holds both procurement records and payables in one file. Separate the two, match each payable to its procurement record, and list payables with no procurement behind them and procurement with nothing payable recorded against it.",
+  "output_files": [
+    "procurement_payable_review.xlsx"
+  ],
+  "task_diff": "medium",
+  "data_manifest": []
+}

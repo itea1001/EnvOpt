@@ -1,0 +1,14 @@
+{
+  "absolute_id": "s2_145",
+  "id": "s2_145",
+  "file_system": "运营人员",
+  "persona": "Operations Manager",
+  "job": "Operations Manager",
+  "user_profit": "运营人员",
+  "task": "Check `faq_product_faq_knowledge_base_2024_edition.md` against the Q3 ticket samples and the user feedback summary. List the issues users actually raise that the FAQ does not answer, ordered by how often they come up, since that ordering is what should drive the next revision. Separate the questions the FAQ answers badly from the ones it does not answer at all, because rewriting an existing entry and writing a new one take different amounts of work and different people tend to do them.",
+  "output_files": [
+    "faq_coverage.doc"
+  ],
+  "task_diff": "medium",
+  "data_manifest": []
+}

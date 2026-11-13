@@ -1,0 +1,14 @@
+{
+  "absolute_id": "s2_144",
+  "id": "s2_144",
+  "file_system": "运营人员",
+  "persona": "Operations Manager",
+  "job": "Operations Manager",
+  "user_profit": "运营人员",
+  "task": "The Q1 2026 spring sale folder holds an execution progress sheet and a daily data monitoring sheet. Establish whether the campaign is on schedule and whether the daily data actually supports the progress being claimed, presenting it as a short deck for a status meeting, leading with anything that contradicts the reported position.",
+  "output_files": [
+    "spring_campaign_status.pptx"
+  ],
+  "task_diff": "medium",
+  "data_manifest": []
+}

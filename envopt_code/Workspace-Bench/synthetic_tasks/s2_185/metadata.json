@@ -1,0 +1,14 @@
+{
+  "absolute_id": "s2_185",
+  "id": "s2_185",
+  "file_system": "行政/后勤人员",
+  "persona": "Logistics Manager",
+  "job": "Logistics Manager",
+  "user_profit": "行政/后勤人员",
+  "task": "The inspection_records folder and the safety inspection rectification trackers cover overlapping ground. Check whether every finding recorded in an inspection has a corresponding tracker entry, and report the findings that do not, since those are the ones nobody is chasing.",
+  "output_files": [
+    "inspection_records_vs_trackers.md"
+  ],
+  "task_diff": "medium",
+  "data_manifest": []
+}

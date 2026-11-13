@@ -1,0 +1,14 @@
+{
+  "absolute_id": "s2_151",
+  "id": "s2_151",
+  "file_system": "运营人员",
+  "persona": "Operations Manager",
+  "job": "Operations Manager",
+  "user_profit": "运营人员",
+  "task": "Eleven monthly platform content schedules sit in content-management, one per channel from January through November. Join them into one calendar in date order so days carrying content on several platforms are visible as such. Check the result against `2024_content_calendar_annual_plan.csv` and identify planned themes with nothing scheduled against them, and scheduled content matching no planned theme. Validate every entry against `all_platforms_release_guidelines_2024.md` and flag anything breaking the guidelines for its own platform. Where the same piece of content is scheduled on several platforms on the same day, check it against each platform's rules separately rather than once, since the guidelines differ by channel and a post that is fine on one may be prohibited on another. Report any day carrying so much scheduled content that the platforms would compete with each other for the same audience.",
+  "output_files": [
+    "content_calendar_consolidated.csv"
+  ],
+  "task_diff": "hard",
+  "data_manifest": []
+}

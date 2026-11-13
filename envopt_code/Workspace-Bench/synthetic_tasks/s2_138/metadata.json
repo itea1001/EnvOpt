@@ -1,0 +1,14 @@
+{
+  "absolute_id": "s2_138",
+  "id": "s2_138",
+  "file_system": "运营人员",
+  "persona": "Operations Manager",
+  "job": "Operations Manager",
+  "user_profit": "运营人员",
+  "task": "Account data exists as JSON for Douyin, Xiaohongshu, WeChat and the 618 campaign. Pull them into one comparison table on the metrics they share. Note any metric one platform reports that the others do not, since those are the ones that cannot be used for a fair comparison however tempting they look.",
+  "output_files": [
+    "social_platform_comparison.pptx"
+  ],
+  "task_diff": "medium",
+  "data_manifest": []
+}

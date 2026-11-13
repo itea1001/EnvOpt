@@ -1,0 +1,14 @@
+{
+  "absolute_id": "s2_041",
+  "id": "s2_041",
+  "file_system": "开发人员",
+  "persona": "Backend Developer",
+  "job": "Backend Developer",
+  "user_profit": "开发人员",
+  "task": "Index the ADR files in the architecture folder, from `ADR_1.md` to `ADR_11.md`: number, decision, and one line on what it constrains. Several are named only by number while others carry a topic in the filename, so rename them consistently and record the old name against the new one.",
+  "output_files": [
+    "adr_index.md"
+  ],
+  "task_diff": "easy",
+  "data_manifest": []
+}

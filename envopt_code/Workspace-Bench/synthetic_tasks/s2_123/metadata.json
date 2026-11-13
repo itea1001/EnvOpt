@@ -1,0 +1,14 @@
+{
+  "absolute_id": "s2_123",
+  "id": "s2_123",
+  "file_system": "运营人员",
+  "persona": "Operations Manager",
+  "job": "Operations Manager",
+  "user_profit": "运营人员",
+  "task": "Read the OKR target management and SQL basics training modules and say what prior knowledge each assumes. Then judge whether somebody joining the operations team could take them in either order or whether one depends on the other, and recommend a sequence for a new starter with neither background.",
+  "output_files": [
+    "training_module_notes.txt"
+  ],
+  "task_diff": "easy",
+  "data_manifest": []
+}

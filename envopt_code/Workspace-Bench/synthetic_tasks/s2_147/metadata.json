@@ -1,0 +1,14 @@
+{
+  "absolute_id": "s2_147",
+  "id": "s2_147",
+  "file_system": "运营人员",
+  "persona": "Operations Manager",
+  "job": "Operations Manager",
+  "user_profit": "运营人员",
+  "task": "Compare `monthly_costs_reimbursement_summary_2024_10.xlsx` with the reimbursement analysis report for the same month. Report any category where the summary and the analysis disagree, and say whether the difference is large enough to change the conclusion the analysis draws.",
+  "output_files": [
+    "reimbursement_check.txt"
+  ],
+  "task_diff": "medium",
+  "data_manifest": []
+}

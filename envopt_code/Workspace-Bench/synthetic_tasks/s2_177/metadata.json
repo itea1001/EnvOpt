@@ -1,0 +1,14 @@
+{
+  "absolute_id": "s2_177",
+  "id": "s2_177",
+  "file_system": "行政/后勤人员",
+  "persona": "Logistics Manager",
+  "job": "Logistics Manager",
+  "user_profit": "行政/后勤人员",
+  "task": "Work out from the office_supplies folder what is consumed most heavily over the year, setting that against `current_inventory_master_list_2024_12.xlsx` to identify the high-consumption items that are thinly stocked, since those are the ones that will run out soonest.",
+  "output_files": [
+    "office_supplies_consumption.pdf"
+  ],
+  "task_diff": "medium",
+  "data_manifest": []
+}

@@ -1,0 +1,14 @@
+{
+  "absolute_id": "s2_028",
+  "id": "s2_028",
+  "file_system": "产品人员",
+  "persona": "Product Manager",
+  "job": "Product Manager",
+  "user_profit": "产品人员",
+  "task": "For the v5.9 launch on 20 March, compare `launch_checklist_v5_9_20250320.xlsx` against the general edition template and note which template items were dropped for this release. Using `launch_issue_tracker_v5_9_20250320.xlsx`, say which issues were still open when it was signed off.",
+  "output_files": [
+    "launch_v5_9_audit.md"
+  ],
+  "task_diff": "medium",
+  "data_manifest": []
+}

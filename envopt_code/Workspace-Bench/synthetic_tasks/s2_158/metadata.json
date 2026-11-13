@@ -1,0 +1,15 @@
+{
+  "absolute_id": "s2_158",
+  "id": "s2_158",
+  "file_system": "运营人员",
+  "persona": "Operations Manager",
+  "job": "Operations Manager",
+  "user_profit": "运营人员",
+  "task": "Trace strategy through to measurement. Extract the commitments from `20240101_2024_operations_strategic_plan.md` and the three quarterly growth strategies, then match each to an objective in `2024okr_master_sheet.csv`. Produce a table with three groups: commitments with an OKR behind them, commitments with none, and OKRs tracing to no commitment at all — the second is work nobody measures and the third is measurement nobody asked for. Attach each matched objective's progress from the annual OKR breakdown and identify commitments formally tracked but making no progress. Note also where a later quarterly strategy silently drops something an earlier one promised, since a commitment that disappears without a recorded decision tends to resurface as a surprise.",
+  "output_files": [
+    "okr_traceability.md",
+    "untracked_commitments.png"
+  ],
+  "task_diff": "hard",
+  "data_manifest": []
+}

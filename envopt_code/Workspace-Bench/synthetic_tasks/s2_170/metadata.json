@@ -1,0 +1,14 @@
+{
+  "absolute_id": "s2_170",
+  "id": "s2_170",
+  "file_system": "行政/后勤人员",
+  "persona": "Logistics Manager",
+  "job": "Logistics Manager",
+  "user_profit": "行政/后勤人员",
+  "task": "Check `_double_11_campaign_products.xlsx` against the key accounts activity spreadsheet and identify products with no account assigned to them. Walk `_double_11_preparation_manual_key_notes.xlsx` as a checklist and mark each item satisfied or not, then confirm the issue response scripts cover every product in the campaign.",
+  "output_files": [
+    "double_11_readiness.xlsx"
+  ],
+  "task_diff": "medium",
+  "data_manifest": []
+}

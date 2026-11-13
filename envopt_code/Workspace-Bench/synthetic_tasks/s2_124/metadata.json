@@ -1,0 +1,14 @@
+{
+  "absolute_id": "s2_124",
+  "id": "s2_124",
+  "file_system": "运营人员",
+  "persona": "Operations Manager",
+  "job": "Operations Manager",
+  "user_profit": "运营人员",
+  "task": "Summarise `market_brief_2024q3_operations_quarterly_report.md`.",
+  "output_files": [
+    "market_brief_summary.md"
+  ],
+  "task_diff": "easy",
+  "data_manifest": []
+}

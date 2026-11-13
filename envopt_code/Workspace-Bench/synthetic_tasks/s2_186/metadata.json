@@ -1,0 +1,14 @@
+{
+  "absolute_id": "s2_186",
+  "id": "s2_186",
+  "file_system": "行政/后勤人员",
+  "persona": "Logistics Manager",
+  "job": "Logistics Manager",
+  "user_profit": "行政/后勤人员",
+  "task": "Check the emergency_plans folder against `service_provider_emergency_response_manual.docx` and the emergency contact list. Does every scenario the plans cover have a named provider and a reachable contact? Report any scenario where the plan names a role but no actual person, since a plan that escalates to a job title nobody currently holds will fail at exactly the moment it is needed. Check the contact details themselves against the service provider list rather than assuming they are current, and say when each was last updated if the files record it, because an emergency contact list is only as good as its most stale entry.",
+  "output_files": [
+    "emergency_plan_coverage.doc"
+  ],
+  "task_diff": "medium",
+  "data_manifest": []
+}

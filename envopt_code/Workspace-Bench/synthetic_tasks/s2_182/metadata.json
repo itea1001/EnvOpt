@@ -1,0 +1,14 @@
+{
+  "absolute_id": "s2_182",
+  "id": "s2_182",
+  "file_system": "行政/后勤人员",
+  "persona": "Logistics Manager",
+  "job": "Logistics Manager",
+  "user_profit": "行政/后勤人员",
+  "task": "The reports_for_finance folder holds what logistics sends to finance each period. Check those figures against `2024_inventory_inbound_outbound_summary_ledger.xlsx` and `fixed_assets_general_ledger_2024_12.xlsx`, and report anything reported to finance that the underlying records do not support.",
+  "output_files": [
+    "finance_reports_check.doc"
+  ],
+  "task_diff": "medium",
+  "data_manifest": []
+}

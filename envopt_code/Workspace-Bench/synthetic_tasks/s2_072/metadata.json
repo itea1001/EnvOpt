@@ -1,0 +1,14 @@
+{
+  "absolute_id": "s2_072",
+  "id": "s2_072",
+  "file_system": "开发人员",
+  "persona": "Backend Developer",
+  "job": "Backend Developer",
+  "user_profit": "开发人员",
+  "task": "Join `employee_master_list.csv` with the research and development, sales and human resources rosters, resolving people appearing in more than one. Attach tenure and commute from `commute_and_tenure.csv`, the 2024 rating from `performance_review_2024.csv` decoded with `performance_codebook.txt`, pay from `compensation_details.csv`, and survey responses decoded with `survey_codebook.txt`. Rank employees by how many risk factors they carry, and report which records could not be joined and why, since an unjoinable record is usually a data problem rather than a person who does not exist. Say which of the risk factors actually co-occur in this population rather than treating them as independent, because factors that always appear together are one signal counted several times and will make the ranking look more confident than the data supports.",
+  "output_files": [
+    "workforce_risk.csv"
+  ],
+  "task_diff": "hard",
+  "data_manifest": []
+}

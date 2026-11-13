@@ -1,0 +1,14 @@
+{
+  "absolute_id": "s2_128",
+  "id": "s2_128",
+  "file_system": "运营人员",
+  "persona": "Operations Manager",
+  "job": "Operations Manager",
+  "user_profit": "运营人员",
+  "task": "Three press releases sit in brand-management — a feature release in January, a CEO open letter in March, and a response to negative coverage in April. Check each against `brand_voice_guidelines_v2.3.md` and list where they depart from it. Note whether the departures cluster in the crisis response, since that is where guidelines usually get abandoned under time pressure. Say for each departure whether it changed the meaning of the statement or only its tone, because a tonal drift is a style problem and a change of meaning is a legal one, and the two should not be reported to the same person.",
+  "output_files": [
+    "brand_voice_check.doc"
+  ],
+  "task_diff": "hard",
+  "data_manifest": []
+}

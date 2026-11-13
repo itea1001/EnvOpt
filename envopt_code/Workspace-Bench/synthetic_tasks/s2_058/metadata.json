@@ -1,0 +1,14 @@
+{
+  "absolute_id": "s2_058",
+  "id": "s2_058",
+  "file_system": "开发人员",
+  "persona": "Backend Developer",
+  "job": "Backend Developer",
+  "user_profit": "开发人员",
+  "task": "Compare `non_functional_requirements.md` and `system_nonfunctional_requirements_specification.md` against what `slo_definitions.yaml` actually measures. List the non-functional requirements nothing is watching, and note where the two requirement documents state different targets for the same property.",
+  "output_files": [
+    "non_functional_gaps.md"
+  ],
+  "task_diff": "medium",
+  "data_manifest": []
+}

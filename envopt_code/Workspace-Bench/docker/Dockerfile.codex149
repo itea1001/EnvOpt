@@ -1,0 +1,15 @@
+# Same benchmark image, newer codex CLI — needed for the GPT-5.6 family (sol/terra/luna),
+# which requires codex >= 0.144.0. The shipped image pins 0.130.0
+# (Workspace-Bench/evaluation/docker/Dockerfile:29).
+#
+# Built as a SEPARATE tag on purpose: bumping codex changes the target agent's harness, so
+# rebuilding workspace-bench:local in place would break comparability with every number we
+# already measured (baseline, steps 1-6, test-80). Both arms of any GPT-5.6 comparison must
+# run on this tag; the gpt-5.4-mini line stays on workspace-bench:local.
+#
+#   docker build -f Dockerfile.codex149 -t workspace-bench:codex149 .
+FROM workspace-bench:local
+
+RUN npm install -g @openai/codex@0.149.0
+
+CMD ["/bin/bash"]

@@ -1,0 +1,14 @@
+{
+  "absolute_id": "s2_052",
+  "id": "s2_052",
+  "file_system": "开发人员",
+  "persona": "Backend Developer",
+  "job": "Backend Developer",
+  "user_profit": "开发人员",
+  "task": "`Event_Driven_Design.md` describes the events the system emits and `kafka_topics_spec.md` lists the topics that carry them. Check the two match, report anything defined in only one of them, and note any topic with no described producer or no described consumer.",
+  "output_files": [
+    "event_topic_check.md"
+  ],
+  "task_diff": "medium",
+  "data_manifest": []
+}

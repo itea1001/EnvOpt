@@ -1,0 +1,14 @@
+{
+  "absolute_id": "s2_091",
+  "id": "s2_091",
+  "file_system": "研究人员",
+  "persona": "Researcher",
+  "job": "Researcher",
+  "user_profit": "研究人员",
+  "task": "The Daily_Management inspiration notes folder holds `Flomo_cards.md`, `notebook.txt` and `notion_table.md`, and they overlap heavily. Merge them into one set of notes, dropping duplicates and keeping the fullest version of each idea. Where two sources record the same idea differently, keep the one with more context.",
+  "output_files": [
+    "notes_consolidated.md"
+  ],
+  "task_diff": "medium",
+  "data_manifest": []
+}

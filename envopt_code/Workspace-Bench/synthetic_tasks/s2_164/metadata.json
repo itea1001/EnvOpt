@@ -1,0 +1,14 @@
+{
+  "absolute_id": "s2_164",
+  "id": "s2_164",
+  "file_system": "行政/后勤人员",
+  "persona": "Logistics Manager",
+  "job": "Logistics Manager",
+  "user_profit": "行政/后勤人员",
+  "task": "Index the policies_legal_confirmed folder: policy name, what it governs, and its date. Sort the entries so the oldest sit at the top, since a legally confirmed policy that has not been revisited in years is the one most likely to have been overtaken, and flag any two policies that appear to govern the same activity.",
+  "output_files": [
+    "policies_index.md"
+  ],
+  "task_diff": "easy",
+  "data_manifest": []
+}

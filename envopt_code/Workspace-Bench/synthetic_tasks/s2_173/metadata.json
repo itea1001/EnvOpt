@@ -1,0 +1,14 @@
+{
+  "absolute_id": "s2_173",
+  "id": "s2_173",
+  "file_system": "行政/后勤人员",
+  "persona": "Logistics Manager",
+  "job": "Logistics Manager",
+  "user_profit": "行政/后勤人员",
+  "task": "The approvals folder splits into engineering and facility approvals and HR and administrative ones. Work out from the forms and trackers what the approval route is for each request type, checking it against `basic_explanation_of_internal_approval_permissions_and_processes.pdf`. Report the request types whose actual route departs from the documented one. For each departure say whether the real route adds an approver or removes one, because an extra approver is usually somebody protecting themselves and a missing one is usually a control that has quietly lapsed, and only the second needs fixing urgently. Note any request type with no documented route at all, since those are being approved entirely by habit.",
+  "output_files": [
+    "approval_routes.md"
+  ],
+  "task_diff": "medium",
+  "data_manifest": []
+}

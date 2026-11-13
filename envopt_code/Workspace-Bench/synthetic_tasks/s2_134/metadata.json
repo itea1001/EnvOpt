@@ -1,0 +1,14 @@
+{
+  "absolute_id": "s2_134",
+  "id": "s2_134",
+  "file_system": "运营人员",
+  "persona": "Operations Manager",
+  "job": "Operations Manager",
+  "user_profit": "运营人员",
+  "task": "Compare the 2024 and 2025 training plans and establish which topics carried forward, which were dropped and which are new. Using `training_completion_status_2024q1q2.csv`, say which 2024 topics had poor completion and were dropped anyway, since dropping a course nobody finished may be solving the wrong problem.",
+  "output_files": [
+    "training_gaps.xlsx"
+  ],
+  "task_diff": "medium",
+  "data_manifest": []
+}

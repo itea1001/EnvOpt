@@ -1,0 +1,15 @@
+{
+  "absolute_id": "s2_114",
+  "id": "s2_114",
+  "file_system": "研究人员",
+  "persona": "Researcher",
+  "job": "Researcher",
+  "user_profit": "研究人员",
+  "task": "The documents 2024 folder holds three named conference presentations alongside a large archive subfolder full of files named only by hash or by date. Work out which archive files are presentations, which are papers, and which are neither, then sort them into folders by type. Record for each one its original name, its new location and what you determined it to be.",
+  "output_files": [
+    "archive_sorted/",
+    "archive_manifest.txt"
+  ],
+  "task_diff": "hard",
+  "data_manifest": []
+}

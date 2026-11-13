@@ -1,0 +1,14 @@
+{
+  "absolute_id": "s2_034",
+  "id": "s2_034",
+  "file_system": "产品人员",
+  "persona": "Product Manager",
+  "job": "Product Manager",
+  "user_profit": "产品人员",
+  "task": "Build a coverage table over the endpoints listed in `apiapi_list_overview_v2_0.xlsx`. For each one record whether it appears in `apiapi_change_log_2025.xlsx`, whether the content, data or user category interface guide documents it, and whether the usage examples collection shows it in use. Highlight endpoints missing two or more of those, and separately list anything documented in a category guide that never appears in the overview at all.",
+  "output_files": [
+    "api_coverage.xlsx"
+  ],
+  "task_diff": "hard",
+  "data_manifest": []
+}

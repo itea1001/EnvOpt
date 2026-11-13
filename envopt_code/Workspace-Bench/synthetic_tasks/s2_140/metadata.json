@@ -1,0 +1,14 @@
+{
+  "absolute_id": "s2_140",
+  "id": "s2_140",
+  "file_system": "运营人员",
+  "persona": "Operations Manager",
+  "job": "Operations Manager",
+  "user_profit": "运营人员",
+  "task": "`cohort_analysis_methodology_notes_document.xlsx` sets out how cohorts should be constructed. Check the Q1 registered-user cohort and the Q2 paying-user renewal cohort against it and report where the method was not followed. Say for each deviation whether it would change the conclusion or merely the presentation.",
+  "output_files": [
+    "cohort_methodology_check.md"
+  ],
+  "task_diff": "medium",
+  "data_manifest": []
+}

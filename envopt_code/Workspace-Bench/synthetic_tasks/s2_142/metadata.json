@@ -1,0 +1,14 @@
+{
+  "absolute_id": "s2_142",
+  "id": "s2_142",
+  "file_system": "运营人员",
+  "persona": "Operations Manager",
+  "job": "Operations Manager",
+  "user_profit": "运营人员",
+  "task": "Using the all-vendor service cost comparison, `vendor_payment_records_2024.xlsx` and `vendor_performance_scoring_card_2024q3.xlsx`, identify the vendors whose cost is rising while their score falls. Those are the renegotiation candidates, so rank them by how much is being spent on them rather than by how badly the score has fallen. Note any vendor whose cost rose because we asked for more work, since that is not a vendor problem at all and putting it on a renegotiation list would waste everyone's time.",
+  "output_files": [
+    "vendor_cost_score.pptx"
+  ],
+  "task_diff": "hard",
+  "data_manifest": []
+}

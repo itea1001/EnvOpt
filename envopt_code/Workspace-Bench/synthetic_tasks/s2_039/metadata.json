@@ -1,0 +1,15 @@
+{
+  "absolute_id": "s2_039",
+  "id": "s2_039",
+  "file_system": "产品人员",
+  "persona": "Product Manager",
+  "job": "Product Manager",
+  "user_profit": "产品人员",
+  "task": "Compare what the 2025 product milestone plan promised against what actually shipped. Take delivery from `requirements_delivery_progress_weekly_report_2025w01_w12.xlsx`, take what remains scheduled from `techflow_2025h2release_schedule.xlsx`, and take standup commitments from `action_item_tracker_2025q1.xlsx`. Produce a table with three groups: milestones delivered on time, delivered late, and with no delivery record at all. For the third group establish whether the release schedule still carries them, in which case they are merely late, or whether they have disappeared from both the schedule and the delivery record, in which case they were dropped with no decision recorded anywhere. Write those up separately, since a milestone that vanishes without a decision is the finding worth escalating.",
+  "output_files": [
+    "milestone_vs_delivery.xlsx",
+    "dropped_milestones.pdf"
+  ],
+  "task_diff": "hard",
+  "data_manifest": []
+}

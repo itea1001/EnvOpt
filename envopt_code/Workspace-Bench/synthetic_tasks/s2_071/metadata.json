@@ -1,0 +1,14 @@
+{
+  "absolute_id": "s2_071",
+  "id": "s2_071",
+  "file_system": "开发人员",
+  "persona": "Backend Developer",
+  "job": "Backend Developer",
+  "user_profit": "开发人员",
+  "task": "The service specifications describe contracts between services that nobody has checked against one another. Read the user, order, payment and API gateway specs and build a table of every cross-service assumption each makes — endpoints called, payload shapes expected, error behaviour relied upon. Flag every case where two specifications describe the same contract differently, and every error condition a specification depends on that `error_code_spec.md` does not define. For each conflict say which of the two services would fail first if the contract were exercised as written, because that determines who gets paged and therefore who needs to know. Note any contract that only one side describes at all, since an assumption held by one service and unknown to the other is the kind that survives review and fails in production.",
+  "output_files": [
+    "spec_conflicts.docx"
+  ],
+  "task_diff": "hard",
+  "data_manifest": []
+}

@@ -1,0 +1,14 @@
+{
+  "absolute_id": "s2_171",
+  "id": "s2_171",
+  "file_system": "行政/后勤人员",
+  "persona": "Logistics Manager",
+  "job": "Logistics Manager",
+  "user_profit": "行政/后勤人员",
+  "task": "Test the two zhitongche plan tables against `company_marketing_budget_rules.txt`, marking each rule as met, broken, or impossible to judge from the document. A second copy of the flagship store plan sits in the same folder under a different name — check whether the two copies agree, since a difference between them is itself the finding.",
+  "output_files": [
+    "marketing_budget_review.xlsx"
+  ],
+  "task_diff": "medium",
+  "data_manifest": []
+}

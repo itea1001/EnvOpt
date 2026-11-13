@@ -1,0 +1,14 @@
+{
+  "absolute_id": "s2_092",
+  "id": "s2_092",
+  "file_system": "研究人员",
+  "persona": "Researcher",
+  "job": "Researcher",
+  "user_profit": "研究人员",
+  "task": "The ST-Raptor project has several Python files named after their function, including `main.py`, `embedding.py` and `table_preprocess.py`. Read them and produce a map of which module calls which, marking which are entry points meant to be run directly and which are libraries. Note any module nothing else imports, since that is either dead code or an undocumented entry point.",
+  "output_files": [
+    "st_raptor_module_map.md"
+  ],
+  "task_diff": "medium",
+  "data_manifest": []
+}

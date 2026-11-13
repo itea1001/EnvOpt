@@ -1,0 +1,14 @@
+{
+  "absolute_id": "s2_101",
+  "id": "s2_101",
+  "file_system": "研究人员",
+  "persona": "Researcher",
+  "job": "Researcher",
+  "user_profit": "研究人员",
+  "task": "Compare `Aimeike_top_10_shareholders_2025_Q1.xlsx` against `Aimeike_management_shareholding_changes.xlsx` and establish who increased their holding and who reduced it. Then check whether any change coincides with an unlock recorded in the Langzi restricted shares file, since a reduction timed to an unlock reads differently from one that is not.",
+  "output_files": [
+    "shareholder_changes.docx"
+  ],
+  "task_diff": "medium",
+  "data_manifest": []
+}

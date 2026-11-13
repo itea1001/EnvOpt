@@ -1,0 +1,14 @@
+{
+  "absolute_id": "s2_119",
+  "id": "s2_119",
+  "file_system": "研究人员",
+  "persona": "Researcher",
+  "job": "Researcher",
+  "user_profit": "研究人员",
+  "task": "The Kaima 2021 annual report is a single spreadsheet with its chapters run together and nothing labelled. Locate by content the sections covering operational discussion, the consolidated income statement and its notes, subsidiary information, risk warnings and the production and marketing disclosures, and work out the revenue split by business line and by region, whether production and sales actually match across the year, and which subsidiaries helped or hurt the parent's result. Finish with a risk assessment distinguishing the risks the numbers support from the ones the report merely lists, and make every conclusion traceable to the section it came from, since the value of the analysis is that a reader can check it against a document with no table of contents. Where a figure appears in both the statements and the notes with different values, use the statement figure and record the discrepancy, because the notes in this report are the less carefully maintained of the two.",
+  "output_files": [
+    "kaima_2021_analysis.pdf"
+  ],
+  "task_diff": "hard",
+  "data_manifest": []
+}

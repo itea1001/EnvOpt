@@ -1,0 +1,14 @@
+{
+  "absolute_id": "s2_113",
+  "id": "s2_113",
+  "file_system": "研究人员",
+  "persona": "Researcher",
+  "job": "Researcher",
+  "user_profit": "研究人员",
+  "task": "The work folder is full of spreadsheets with meaningless names — bare numbers, duplicated names with bracketed suffixes, and a few descriptive ones. Open enough of each to establish what it actually contains, then produce an index giving the filename, what the data is, roughly how many rows, and a suggested descriptive name. Group the ones that look like copies of the same underlying data and say which copy is the fullest.",
+  "output_files": [
+    "work_spreadsheets_index.csv"
+  ],
+  "task_diff": "hard",
+  "data_manifest": []
+}

@@ -1,0 +1,14 @@
+{
+  "absolute_id": "s2_095",
+  "id": "s2_095",
+  "file_system": "研究人员",
+  "persona": "Researcher",
+  "job": "Researcher",
+  "user_profit": "研究人员",
+  "task": "`Case Study_B2C_app_permission_restriction_bypass_analysis.md` describes how a restriction was bypassed and `SOP_for_banning_noncompliant_apps.md` describes the process meant to prevent it. Work through the SOP against the case and say which steps would have caught the bypass and which would not, recommending the smallest change to the SOP that would close it.",
+  "output_files": [
+    "permission_case_review.md"
+  ],
+  "task_diff": "medium",
+  "data_manifest": []
+}

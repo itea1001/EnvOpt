@@ -1,0 +1,15 @@
+{
+  "absolute_id": "s2_065",
+  "id": "s2_065",
+  "file_system": "开发人员",
+  "persona": "Backend Developer",
+  "job": "Backend Developer",
+  "user_profit": "开发人员",
+  "task": "The database folder holds two sets of migrations — V1 through V6 at the top level and V001 through V003 in a migrations subfolder. Work out which set is current, move the superseded set into a folder named `migration_archive`, and record what you moved along with the evidence that led you to judge it superseded.",
+  "output_files": [
+    "migration_archive/",
+    "archive_note.md"
+  ],
+  "task_diff": "medium",
+  "data_manifest": []
+}

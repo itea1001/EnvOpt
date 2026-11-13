@@ -1,0 +1,14 @@
+{
+  "absolute_id": "s2_053",
+  "id": "s2_053",
+  "file_system": "开发人员",
+  "persona": "Backend Developer",
+  "job": "Backend Developer",
+  "user_profit": "开发人员",
+  "task": "Twenty application log files from 10 February sit in the logs folder, `app_20260210_1022.log` onwards. Work out which errors recur across more than one file and which appear only once. Report the recurring ones with a count and the files they appear in, since an error in one log is noise and the same error in fifteen is a defect.",
+  "output_files": [
+    "log_error_summary.md"
+  ],
+  "task_diff": "medium",
+  "data_manifest": []
+}

@@ -1,0 +1,14 @@
+{
+  "absolute_id": "s2_055",
+  "id": "s2_055",
+  "file_system": "开发人员",
+  "persona": "Backend Developer",
+  "job": "Backend Developer",
+  "user_profit": "开发人员",
+  "task": "Review the Kubernetes manifests in the deployment folder against `helm_values_production.yaml` and `k8s_network_policy.yaml`. Report every setting where the manifests and the helm values disagree, and every service exposed through an ingress that has no matching network policy behind it.",
+  "output_files": [
+    "k8s_config_review.docx"
+  ],
+  "task_diff": "medium",
+  "data_manifest": []
+}

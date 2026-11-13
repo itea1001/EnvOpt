@@ -1,0 +1,14 @@
+{
+  "absolute_id": "s2_074",
+  "id": "s2_074",
+  "file_system": "开发人员",
+  "persona": "Backend Developer",
+  "job": "Backend Developer",
+  "user_profit": "开发人员",
+  "task": "Three documents describe caching and they were written at different times: `ADR_4_caching_strategy.md` records the decision, `Cache_Strategy.md` describes the approach, and `caching_strategy_spec.md` specifies it. Reconstruct what was decided, what changed afterwards, and whether the specification still matches the ADR. Where they conflict, say which version the deployed configuration in `prod-app-config.yaml` actually reflects, since that is what is running regardless of what any document claims.",
+  "output_files": [
+    "caching_decision_trail.pdf"
+  ],
+  "task_diff": "hard",
+  "data_manifest": []
+}

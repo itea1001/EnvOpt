@@ -1,0 +1,14 @@
+{
+  "absolute_id": "s2_196",
+  "id": "s2_196",
+  "file_system": "行政/后勤人员",
+  "persona": "Logistics Manager",
+  "job": "Logistics Manager",
+  "user_profit": "行政/后勤人员",
+  "task": "The folder data_for_engineer_liu was assembled for one person and never tidied. Work out what the material is actually about, which files are current and which have been superseded, and write a handover note that would let somebody else pick the work up without having to ask him. List the files you could not place and say why, since those are the ones only he can explain.",
+  "output_files": [
+    "engineer_liu_handover.pdf"
+  ],
+  "task_diff": "hard",
+  "data_manifest": []
+}

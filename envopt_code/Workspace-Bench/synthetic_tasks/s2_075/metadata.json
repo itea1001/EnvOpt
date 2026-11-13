@@ -1,0 +1,15 @@
+{
+  "absolute_id": "s2_075",
+  "id": "s2_075",
+  "file_system": "开发人员",
+  "persona": "Backend Developer",
+  "job": "Backend Developer",
+  "user_profit": "开发人员",
+  "task": "Trace requirements from statement through to acceptance. Extract the individual requirements from the order management, payment system and user system PRDs, match each to an entry in `functional_requirements_v2.3.md`, and match that in turn to a criterion in `acceptance_criteria.md`. Produce a four-column traceability table, and separately list the requirements stopping partway along the chain — one with no functional entry is a planning gap, one with a functional entry but no acceptance criterion is a testing gap, and the two need different people to fix them, so keep them apart. Then compare your result against `requirements_traceability.md` and flag every link that document claims which you cannot substantiate from the underlying files.",
+  "output_files": [
+    "prd_traceability.md",
+    "orphan_requirements.csv"
+  ],
+  "task_diff": "hard",
+  "data_manifest": []
+}

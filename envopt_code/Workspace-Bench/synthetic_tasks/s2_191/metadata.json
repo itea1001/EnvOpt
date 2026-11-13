@@ -1,0 +1,14 @@
+{
+  "absolute_id": "s2_191",
+  "id": "s2_191",
+  "file_system": "行政/后勤人员",
+  "persona": "Logistics Manager",
+  "job": "Logistics Manager",
+  "user_profit": "行政/后勤人员",
+  "task": "The daily_operations folder holds a monthly logistics work log for each month of 2024, split across first-half and second-half subfolders. Join them into one year, checking the recurring tasks against `key_task_tracker_first_half_2024.xlsx` to say which tracked tasks stopped appearing partway through the year — a task that quietly disappears is either finished or forgotten, and the log alone will not say which.",
+  "output_files": [
+    "work_log_2024.xlsx"
+  ],
+  "task_diff": "medium",
+  "data_manifest": []
+}

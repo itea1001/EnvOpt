@@ -1,0 +1,14 @@
+{
+  "absolute_id": "s2_049",
+  "id": "s2_049",
+  "file_system": "开发人员",
+  "persona": "Backend Developer",
+  "job": "Backend Developer",
+  "user_profit": "开发人员",
+  "task": "Three CI pipeline definitions exist — `pipeline_1.yaml`, `pipeline_15.yaml` and `pipeline_30.yaml` — alongside the GitHub workflows and a Jenkinsfile. Work out which stages they share and where they diverge, and establish which of the five is actually wired to deploy, since the others may be abandoned.",
+  "output_files": [
+    "pipeline_comparison.md"
+  ],
+  "task_diff": "medium",
+  "data_manifest": []
+}

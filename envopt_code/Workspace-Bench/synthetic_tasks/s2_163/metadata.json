@@ -1,0 +1,14 @@
+{
+  "absolute_id": "s2_163",
+  "id": "s2_163",
+  "file_system": "行政/后勤人员",
+  "persona": "Logistics Manager",
+  "job": "Logistics Manager",
+  "user_profit": "行政/后勤人员",
+  "task": "Sort the material_requests folder into subfolders by status, renaming each file so its name carries the requester and the item, and leave a list of request, requester, item and status.",
+  "output_files": [
+    "material_request_status.txt"
+  ],
+  "task_diff": "easy",
+  "data_manifest": []
+}

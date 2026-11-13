@@ -1,0 +1,14 @@
+{
+  "absolute_id": "s2_084",
+  "id": "s2_084",
+  "file_system": "研究人员",
+  "persona": "Researcher",
+  "job": "Researcher",
+  "user_profit": "研究人员",
+  "task": "Combine `2020-01_Japanese_Automobile_Output_by_Model.xlsx` and `2020-01_Japanese_Automobile_Sales_by_Model.xlsx` into one table by model.",
+  "output_files": [
+    "automaker_2020.xlsx"
+  ],
+  "task_diff": "easy",
+  "data_manifest": []
+}

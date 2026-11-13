@@ -1,0 +1,14 @@
+{
+  "absolute_id": "s2_021",
+  "id": "s2_021",
+  "file_system": "产品人员",
+  "persona": "Product Manager",
+  "job": "Product Manager",
+  "user_profit": "产品人员",
+  "task": "`techflowuser_manual_v5_8.pdf`, `techflowmobile_manual_v5_8.pdf` and `techflowinternal_training_deck_v5_8.pptx` all claim to be v5.8. Check whether they describe the same feature set and list anything covered in one but missing from the others, since a feature documented for staff but not for users is a support problem waiting to happen.",
+  "output_files": [
+    "manual_version_check.txt"
+  ],
+  "task_diff": "medium",
+  "data_manifest": []
+}

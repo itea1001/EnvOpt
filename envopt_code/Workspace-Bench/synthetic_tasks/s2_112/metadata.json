@@ -1,0 +1,14 @@
+{
+  "absolute_id": "s2_112",
+  "id": "s2_112",
+  "file_system": "研究人员",
+  "persona": "Researcher",
+  "job": "Researcher",
+  "user_profit": "研究人员",
+  "task": "The Materials folder holds five 2024 annual reports from Honghai, Juxing, Xingtu, Taihu Yuanda and Shengye Electric, and the same five sit on the desktop under Reports. Check first whether the two copies are identical, since working from the wrong one wastes the whole exercise. Then build a comparison across the five covering revenue, profit and employee count, taking figures from the reports themselves rather than any summary, and mark any company not disclosing one of the three.",
+  "output_files": [
+    "annual_reports_2024.xlsx"
+  ],
+  "task_diff": "hard",
+  "data_manifest": []
+}

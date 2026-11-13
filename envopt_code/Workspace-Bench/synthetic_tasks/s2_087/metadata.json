@@ -1,0 +1,14 @@
+{
+  "absolute_id": "s2_087",
+  "id": "s2_087",
+  "file_system": "研究人员",
+  "persona": "Researcher",
+  "job": "Researcher",
+  "user_profit": "研究人员",
+  "task": "Beijing civilian vehicle ownership is recorded in `beijing_civilian_vehicle_ownership_2015.xls` and its 2017, 2019, 2021 and 2022 counterparts. The years are unevenly spaced, so compute annualised growth rather than raw change between consecutive files or the gaps will distort the trend. Say which categories grew fastest, which shrank, and whether any category appears or disappears partway through the series.",
+  "output_files": [
+    "beijing_vehicle_growth.md"
+  ],
+  "task_diff": "medium",
+  "data_manifest": []
+}

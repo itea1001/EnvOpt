@@ -1,0 +1,14 @@
+{
+  "absolute_id": "s2_160",
+  "id": "s2_160",
+  "file_system": "运营人员",
+  "persona": "Operations Manager",
+  "job": "Operations Manager",
+  "user_profit": "运营人员",
+  "task": "`model_customer_health_score_scoring_model_v2.1.json` defines how customer health is scored and has never been validated against what actually happened. Take the customers appearing in the Q3 customer success tracker matrix and in the complaints archive, compute what the model would have scored them, and compare that against the outcomes those records show. Report the inputs the model weights heavily that turn out not to predict anything, and separately any signal clearly visible in the complaints data that the model ignores entirely. Say whether the model is worth keeping as it stands, and if not, which two or three changes would do most to fix it.",
+  "output_files": [
+    "health_score_validation.json"
+  ],
+  "task_diff": "hard",
+  "data_manifest": []
+}

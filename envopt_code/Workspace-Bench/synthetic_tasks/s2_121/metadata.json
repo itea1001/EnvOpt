@@ -1,0 +1,14 @@
+{
+  "absolute_id": "s2_121",
+  "id": "s2_121",
+  "file_system": "运营人员",
+  "persona": "Operations Manager",
+  "job": "Operations Manager",
+  "user_profit": "运营人员",
+  "task": "Summarise the operations daily reports in the core-operations daily_reports folder, `20240102_operations_daily_report.md` onwards, into one weekly picture. The folder covers only part of the period, so state which days are missing rather than presenting the summary as a complete week, and group the recurring items so a reader can see what happens every day and what happened once.",
+  "output_files": [
+    "daily_reports_summary.md"
+  ],
+  "task_diff": "easy",
+  "data_manifest": []
+}

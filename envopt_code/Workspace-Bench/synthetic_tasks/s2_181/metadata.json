@@ -1,0 +1,14 @@
+{
+  "absolute_id": "s2_181",
+  "id": "s2_181",
+  "file_system": "行政/后勤人员",
+  "persona": "Logistics Manager",
+  "job": "Logistics Manager",
+  "user_profit": "行政/后勤人员",
+  "task": "The desktop Budget_Management folder mixes budget files with unrelated ones — leave requests, purchase requests, training plans and survey forms are all filed there. Say which files genuinely belong and which have been put in the wrong place, then move the misfiled ones into folders named for what they actually are and leave a record of every file you moved and where it went.",
+  "output_files": [
+    "budget_folder_review.md"
+  ],
+  "task_diff": "medium",
+  "data_manifest": []
+}

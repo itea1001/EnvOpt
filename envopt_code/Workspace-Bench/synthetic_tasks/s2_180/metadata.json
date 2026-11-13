@@ -1,0 +1,14 @@
+{
+  "absolute_id": "s2_180",
+  "id": "s2_180",
+  "file_system": "行政/后勤人员",
+  "persona": "Logistics Manager",
+  "job": "Logistics Manager",
+  "user_profit": "行政/后勤人员",
+  "task": "The Application_Form folder on the desktop is organised by month and date rather than by what the applications are. Work out what kind of application each file holds and produce an index of date, applicant, type and status. Then reorganise the folder by application type rather than by month, renaming each file so its name carries the applicant and the type, and keep a record mapping every old path to its new one.",
+  "output_files": [
+    "application_form_index.xlsx"
+  ],
+  "task_diff": "medium",
+  "data_manifest": []
+}

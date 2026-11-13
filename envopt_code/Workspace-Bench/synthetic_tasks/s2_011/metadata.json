@@ -1,0 +1,14 @@
+{
+  "absolute_id": "s2_011",
+  "id": "s2_011",
+  "file_system": "产品人员",
+  "persona": "Product Manager",
+  "job": "Product Manager",
+  "user_profit": "产品人员",
+  "task": "Compare `emergency_contacts_and_escalation_path.xlsx` with `emergency_incident_escalation_execution_record.xlsx`. Every escalation step in the path should have at least one contact against it, and every contact used during the recorded incident should appear in the path. Output both kinds of gap.",
+  "output_files": [
+    "emergency_contact_gaps.txt"
+  ],
+  "task_diff": "medium",
+  "data_manifest": []
+}

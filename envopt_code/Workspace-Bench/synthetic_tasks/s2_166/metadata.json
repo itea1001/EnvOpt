@@ -1,0 +1,14 @@
+{
+  "absolute_id": "s2_166",
+  "id": "s2_166",
+  "file_system": "行政/后勤人员",
+  "persona": "Logistics Manager",
+  "job": "Logistics Manager",
+  "user_profit": "行政/后勤人员",
+  "task": "Turn `116_Common_Excel_Shortcuts_For_HR.docx` into a one-page quick reference, grouped by the task somebody would be doing rather than by key combination. Drop the shortcuts that duplicate each other and any that apply only to a version of Excel this office does not use, and say how many of the 116 you dropped.",
+  "output_files": [
+    "hr_shortcuts_quickref.doc"
+  ],
+  "task_diff": "easy",
+  "data_manifest": []
+}

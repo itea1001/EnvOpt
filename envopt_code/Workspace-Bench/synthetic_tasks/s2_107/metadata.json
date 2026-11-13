@@ -1,0 +1,15 @@
+{
+  "absolute_id": "s2_107",
+  "id": "s2_107",
+  "file_system": "研究人员",
+  "persona": "Researcher",
+  "job": "Researcher",
+  "user_profit": "研究人员",
+  "task": "The images folder has photographs spread across Camera Roll, Screenshots, team_building_photos and work_photos, with the same pictures appearing in more than one place. Gather them into one folder organised by what they show, remove the duplicates rather than keeping both copies, and record where each surviving file came from.",
+  "output_files": [
+    "photos_sorted/",
+    "photo_manifest.txt"
+  ],
+  "task_diff": "medium",
+  "data_manifest": []
+}

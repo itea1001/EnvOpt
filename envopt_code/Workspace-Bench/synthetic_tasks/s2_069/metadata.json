@@ -1,0 +1,14 @@
+{
+  "absolute_id": "s2_069",
+  "id": "s2_069",
+  "file_system": "开发人员",
+  "persona": "Backend Developer",
+  "job": "Backend Developer",
+  "user_profit": "开发人员",
+  "task": "The alert rules are split across `alert-rules.yaml`, `api_alerts.yaml` and `app_alerts.yml`. Build one inventory of every rule with its condition, threshold and target service. Check each against `slo_definitions.yaml` and flag rules watching something no SLO cares about, and SLOs with no rule watching them. Confirm also that every remaining rule has a documented response in `monitoring_runbook.md` and list the ones that would wake somebody at three in the morning with no instructions attached.",
+  "output_files": [
+    "alert_coverage.pdf"
+  ],
+  "task_diff": "medium",
+  "data_manifest": []
+}

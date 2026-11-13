@@ -1,0 +1,14 @@
+{
+  "absolute_id": "s2_139",
+  "id": "s2_139",
+  "file_system": "运营人员",
+  "persona": "Operations Manager",
+  "job": "Operations Manager",
+  "user_profit": "运营人员",
+  "task": "Check `assets_review_records_2024.csv` against `assets_usage_performance_tracking_all_channels_2024q3.xlsx`. Which assets went into use with no review record behind them, and which reviewed assets were never used at all? The first is a compliance problem and the second is wasted production, so keep them separate.",
+  "output_files": [
+    "assets_review_backlog.doc"
+  ],
+  "task_diff": "medium",
+  "data_manifest": []
+}

@@ -1,0 +1,14 @@
+{
+  "absolute_id": "s2_060",
+  "id": "s2_060",
+  "file_system": "开发人员",
+  "persona": "Backend Developer",
+  "job": "Backend Developer",
+  "user_profit": "开发人员",
+  "task": "`capacity_planning_2025H2.md` rests on assumptions about load and growth. Check each one against `2025_q1_load_test_results.md` and `database_performance_report_2025Q1.md`, and list every assumption the measured data does not support, with the figure that contradicts it.",
+  "output_files": [
+    "capacity_check.txt"
+  ],
+  "task_diff": "medium",
+  "data_manifest": []
+}

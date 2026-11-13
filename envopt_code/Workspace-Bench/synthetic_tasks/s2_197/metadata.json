@@ -1,0 +1,15 @@
+{
+  "absolute_id": "s2_197",
+  "id": "s2_197",
+  "file_system": "行政/后勤人员",
+  "persona": "Logistics Manager",
+  "job": "Logistics Manager",
+  "user_profit": "行政/后勤人员",
+  "task": "Reconcile fixed asset depreciation for 2024. Consolidate the monthly depreciation detail files into one annual series per asset, checking the total against `fixed_assets_depreciation_accrual_details_2024_12.xlsx` and `fixed_assets_general_ledger_2024_12.xlsx`, reporting every asset where the three do not agree. Cross-check also the asset transfer and disposal record and the disposal application form, and identify two separate kinds of exception: assets still being depreciated after their recorded disposal date, and assets whose depreciation stopped early with no disposal recorded at all. Keep the two apart, because the first is money still being written off against something the company no longer owns and the second is an asset that may have left the building without paperwork. For each exception give the asset's book value at the point the discrepancy starts, so somebody can judge which are worth chasing and which are small enough to write off.",
+  "output_files": [
+    "depreciation_reconciliation.xlsx",
+    "disposal_exceptions.csv"
+  ],
+  "task_diff": "hard",
+  "data_manifest": []
+}

@@ -1,0 +1,14 @@
+{
+  "absolute_id": "s2_088",
+  "id": "s2_088",
+  "file_system": "研究人员",
+  "persona": "Researcher",
+  "job": "Researcher",
+  "user_profit": "研究人员",
+  "task": "The Tesla Model 3 period files exist twice — once under the reference data Cars folder and once on the desktop under model3. Check whether the two sets are identical and say which you are treating as authoritative and why, joining the four periods into one continuous series and compute the change between each period.",
+  "output_files": [
+    "tesla_model3_trend.xlsx"
+  ],
+  "task_diff": "medium",
+  "data_manifest": []
+}

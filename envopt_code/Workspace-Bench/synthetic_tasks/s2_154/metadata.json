@@ -1,0 +1,14 @@
+{
+  "absolute_id": "s2_154",
+  "id": "s2_154",
+  "file_system": "运营人员",
+  "persona": "Operations Manager",
+  "job": "Operations Manager",
+  "user_profit": "运营人员",
+  "task": "Eight quality checks from 2024 sit in quality-assurance, covering the 618 campaign, double 11, spring festival, a feature launch, push messages, content compliance, an ads asset review and KOL content. Consolidate them into one findings register in date order, normalising the issue types so the same problem is counted together across checks. Score every finding against `content_review_score_sheet_template.xlsx` so severity is comparable rather than resting on each check's own wording, and say which of the recurring problems `quality_improvements_action_plan_2024q3.docx` actually addresses.",
+  "output_files": [
+    "quality_findings.xlsx"
+  ],
+  "task_diff": "hard",
+  "data_manifest": []
+}

@@ -1,0 +1,14 @@
+{
+  "absolute_id": "s2_129",
+  "id": "s2_129",
+  "file_system": "运营人员",
+  "persona": "Operations Manager",
+  "job": "Operations Manager",
+  "user_profit": "运营人员",
+  "task": "Eight operations weekly reports cover weeks 2, 3, 4, 6, 10, 14, 19 and 23 of 2024, starting with `20240108_operations_weekly_report_week_02.md`. The weeks are not contiguous, so say which periods are unreported rather than treating the sequence as continuous. Track each recurring item across the weeks it appears in, so long-running work is visible as one thread rather than eight entries.",
+  "output_files": [
+    "weekly_ops_rollup.doc"
+  ],
+  "task_diff": "hard",
+  "data_manifest": []
+}

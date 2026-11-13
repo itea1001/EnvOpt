@@ -1,0 +1,14 @@
+{
+  "absolute_id": "s2_187",
+  "id": "s2_187",
+  "file_system": "行政/后勤人员",
+  "persona": "Logistics Manager",
+  "job": "Logistics Manager",
+  "user_profit": "行政/后勤人员",
+  "task": "Consolidate the logistics employee_benefits folder into one summary keyed by recipient, resolving names written differently across files so nobody is counted twice. Flag any benefit issued twice to the same person, and report any record you could not attribute to a recipient rather than dropping it.",
+  "output_files": [
+    "benefits_distribution.docx"
+  ],
+  "task_diff": "medium",
+  "data_manifest": []
+}

@@ -1,0 +1,14 @@
+{
+  "absolute_id": "s2_122",
+  "id": "s2_122",
+  "file_system": "运营人员",
+  "persona": "Operations Manager",
+  "job": "Operations Manager",
+  "user_profit": "运营人员",
+  "task": "Check the three press releases in brand-management against `brand_scripts_banned_vocabulary_2024.md` and list any banned term that appears, with the release it appeared in and the sentence around it. Note whether the banned terms cluster in one release, since that would point at a single author rather than a general problem. Check also whether any term appears in the banned list but is used freely elsewhere in the workspace, because a rule nobody enforces outside press releases is not really a rule and the list should say so.",
+  "output_files": [
+    "banned_terms_found.txt"
+  ],
+  "task_diff": "easy",
+  "data_manifest": []
+}

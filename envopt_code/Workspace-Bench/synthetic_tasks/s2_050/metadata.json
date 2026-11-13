@@ -1,0 +1,14 @@
+{
+  "absolute_id": "s2_050",
+  "id": "s2_050",
+  "file_system": "开发人员",
+  "persona": "Backend Developer",
+  "job": "Backend Developer",
+  "user_profit": "开发人员",
+  "task": "Read `ADR_5_auth_jwt.md`, `jwt_security_config.java` and `oauth2_provider_config.yaml` together. Does the implementation match the decision recorded? List every place the configuration departs from what the ADR specified, and say whether each departure looks deliberate or accidental.",
+  "output_files": [
+    "auth_flow_review.docx"
+  ],
+  "task_diff": "medium",
+  "data_manifest": []
+}

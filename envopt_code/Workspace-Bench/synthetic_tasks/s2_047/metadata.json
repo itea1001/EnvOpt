@@ -1,0 +1,14 @@
+{
+  "absolute_id": "s2_047",
+  "id": "s2_047",
+  "file_system": "开发人员",
+  "persona": "Backend Developer",
+  "job": "Backend Developer",
+  "user_profit": "开发人员",
+  "task": "Roll the January, February and March 2025 monthly reports into one quarterly view. Track each work item across the three months so anything carried over repeatedly appears once as a long-running item rather than three times as separate work, and say which items were carried the whole quarter.",
+  "output_files": [
+    "monthly_trend_q1.md"
+  ],
+  "task_diff": "medium",
+  "data_manifest": []
+}

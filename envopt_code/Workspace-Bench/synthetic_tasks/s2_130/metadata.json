@@ -1,0 +1,14 @@
+{
+  "absolute_id": "s2_130",
+  "id": "s2_130",
+  "file_system": "运营人员",
+  "persona": "Operations Manager",
+  "job": "Operations Manager",
+  "user_profit": "运营人员",
+  "task": "The five monthly 2024 sales files are cut differently — January overall, February by channel, March by region, April direct and May agency. Work out what can honestly be compared across these different cuts and state what cannot. Where direct and agency sales can be compared, report how they differ in volume and mix.",
+  "output_files": [
+    "sales_channel_view.xlsx"
+  ],
+  "task_diff": "hard",
+  "data_manifest": []
+}

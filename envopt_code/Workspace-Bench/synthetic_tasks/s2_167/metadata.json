@@ -1,0 +1,14 @@
+{
+  "absolute_id": "s2_167",
+  "id": "s2_167",
+  "file_system": "行政/后勤人员",
+  "persona": "Logistics Manager",
+  "job": "Logistics Manager",
+  "user_profit": "行政/后勤人员",
+  "task": "Six monthly logistics statistics tables cover months 7 to 12, `logistics_statistics_table_07.csv` through `logistics_statistics_table_12.csv`. Check first whether they all carry the same columns and report any month that does not, since a changed column set part way through will silently break the series. Then join them into one half-year view and compute the trend for each measure.",
+  "output_files": [
+    "logistics_h2_statistics.xlsx"
+  ],
+  "task_diff": "medium",
+  "data_manifest": []
+}

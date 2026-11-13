@@ -1,0 +1,14 @@
+{
+  "absolute_id": "s2_045",
+  "id": "s2_045",
+  "file_system": "开发人员",
+  "persona": "Backend Developer",
+  "job": "Backend Developer",
+  "user_profit": "开发人员",
+  "task": "Check `glossary.md` against the three PRDs and list the terms the PRDs use that the glossary does not define.",
+  "output_files": [
+    "glossary_gaps.txt"
+  ],
+  "task_diff": "easy",
+  "data_manifest": []
+}

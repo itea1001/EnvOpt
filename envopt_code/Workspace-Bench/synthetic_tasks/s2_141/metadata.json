@@ -1,0 +1,14 @@
+{
+  "absolute_id": "s2_141",
+  "id": "s2_141",
+  "file_system": "运营人员",
+  "persona": "Operations Manager",
+  "job": "Operations Manager",
+  "user_profit": "运营人员",
+  "task": "Join `ad_placement_performance_tracking_2024.xlsx` with `channel_placement_data_2024q4.xlsx` and `all_channels_placement_budget_allocation_2024.xlsx` so that each channel shows budget, actual spend and return. Rank the channels by efficiency and flag any channel spending well above its allocation. Where a channel is efficient but small, say so explicitly rather than ranking it alongside the large ones, since efficiency at low volume rarely survives being scaled up and a ranking that ignores volume will send the budget to the wrong place.",
+  "output_files": [
+    "placement_efficiency.xlsx"
+  ],
+  "task_diff": "hard",
+  "data_manifest": []
+}

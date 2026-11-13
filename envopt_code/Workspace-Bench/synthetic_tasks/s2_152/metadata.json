@@ -1,0 +1,14 @@
+{
+  "absolute_id": "s2_152",
+  "id": "s2_152",
+  "file_system": "运营人员",
+  "persona": "Operations Manager",
+  "job": "Operations Manager",
+  "user_profit": "运营人员",
+  "task": "Compare `operations_department_annual_budget_plan_2024.xlsx` against the annual budget execution tracker and identify the categories that consistently over- or under-spend rather than those that missed once. Cross-check the overspends against `budget_overspend_warning_tracking_sheet_2024.xlsx` and find the overspends that were never warned about, since a warning system missing the real overspends is worse than none at all. Then set the 2025 plan beside the 2024 actuals and say which 2025 allocations are already known to be wrong.",
+  "output_files": [
+    "budget_variance.xlsx"
+  ],
+  "task_diff": "hard",
+  "data_manifest": []
+}

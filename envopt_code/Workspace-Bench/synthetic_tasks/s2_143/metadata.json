@@ -1,0 +1,14 @@
+{
+  "absolute_id": "s2_143",
+  "id": "s2_143",
+  "file_system": "运营人员",
+  "persona": "Operations Manager",
+  "job": "Operations Manager",
+  "user_profit": "运营人员",
+  "task": "The two weekly content plans in the marketing content folder say what was intended, `content_performance_data_tracking_sheet_2024.xlsx` says what happened, and `hit_content_content_topic_analysis_2024q3.xlsx` says which topics actually work. Did the plans target the topics that perform? Report the topics that perform well and were never planned for, since those represent demand nobody is deliberately serving. Say also whether the plans were written before or after the topic analysis was available, because planning against topics that had not yet been measured is a scheduling problem rather than a judgement one.",
+  "output_files": [
+    "content_plan_vs_performance.docx"
+  ],
+  "task_diff": "medium",
+  "data_manifest": []
+}

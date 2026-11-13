@@ -1,0 +1,15 @@
+{
+  "absolute_id": "s2_073",
+  "id": "s2_073",
+  "file_system": "开发人员",
+  "persona": "Backend Developer",
+  "job": "Backend Developer",
+  "user_profit": "开发人员",
+  "task": "Five market data files cover beauty, entertainment, photography, social and video player apps. Summarise each into category-level statistics and set them against `category_benchmark.csv` to establish which categories over- and under-perform. Then use the review files for the two most divergent categories to characterise what users actually complain about, and say whether those complaints explain the divergence. Where the market data and the benchmark disagree about a category, record the disagreement rather than silently choosing one of them.",
+  "output_files": [
+    "category_positioning.png",
+    "category_notes.pdf"
+  ],
+  "task_diff": "hard",
+  "data_manifest": []
+}

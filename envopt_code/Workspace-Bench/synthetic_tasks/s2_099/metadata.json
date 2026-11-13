@@ -1,0 +1,14 @@
+{
+  "absolute_id": "s2_099",
+  "id": "s2_099",
+  "file_system": "研究人员",
+  "persona": "Researcher",
+  "job": "Researcher",
+  "user_profit": "研究人员",
+  "task": "Compare `10-10_top_10_malignant_tumor_mortality_rates_urban.xlsx` against the rural equivalent and produce a table of the cancer types where the gap between them is largest, with the size of each gap. Say which direction each gap runs, since some cancers are worse in cities and some in the countryside and the mixture is the point.",
+  "output_files": [
+    "mortality_urban_rural.xlsx"
+  ],
+  "task_diff": "medium",
+  "data_manifest": []
+}

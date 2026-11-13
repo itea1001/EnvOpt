@@ -1,0 +1,14 @@
+{
+  "absolute_id": "s2_127",
+  "id": "s2_127",
+  "file_system": "运营人员",
+  "persona": "Operations Manager",
+  "job": "Operations Manager",
+  "user_profit": "运营人员",
+  "task": "The data-analytics metrics folder holds a daily snapshot file for each month, `202401_day_metrics_snapshot.csv` through to November. Join them into one continuous daily series, checking for missing days rather than assuming each month is complete. Report the gaps you find, since a missing week will otherwise look like a genuine dip in the trend rather than an absence of data. Where a month is present but carries fewer metrics than its neighbours, treat that as a gap too, because a metric that quietly stops being collected is easier to miss than a missing file and harder to notice later.",
+  "output_files": [
+    "daily_metrics_2024.csv"
+  ],
+  "task_diff": "medium",
+  "data_manifest": []
+}

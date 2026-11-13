@@ -1,0 +1,14 @@
+{
+  "absolute_id": "s2_108",
+  "id": "s2_108",
+  "file_system": "研究人员",
+  "persona": "Researcher",
+  "job": "Researcher",
+  "user_profit": "研究人员",
+  "task": "Build a matrix with one row per requirement in the five compliance documents and one column per inspection checklist, marking whether that checklist actually tests the requirement. Then list the requirements no checklist covers and, separately, the checklist items testing nothing any compliance document requires — the first is a coverage gap and the second is wasted effort.",
+  "output_files": [
+    "inspection_compliance_matrix.pdf"
+  ],
+  "task_diff": "medium",
+  "data_manifest": []
+}

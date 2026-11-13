@@ -1,0 +1,14 @@
+{
+  "absolute_id": "s2_090",
+  "id": "s2_090",
+  "file_system": "研究人员",
+  "persona": "Researcher",
+  "job": "Researcher",
+  "user_profit": "研究人员",
+  "task": "Four dormitory documents sit in the desktop Meeting_Minutes folder, from `1-employee_dormitory_management_policy.docx` to `7-employee_dormitory_hygiene_standards.docx`, covering policy, disciplinary rules, utility fees and hygiene standards. Integrate them into one document that could be handed to a new resident on their first day, resolving any rule stated differently in two of them rather than including both versions.",
+  "output_files": [
+    "dormitory_policy.doc"
+  ],
+  "task_diff": "medium",
+  "data_manifest": []
+}

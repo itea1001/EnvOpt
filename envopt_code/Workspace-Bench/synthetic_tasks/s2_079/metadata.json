@@ -1,0 +1,15 @@
+{
+  "absolute_id": "s2_079",
+  "id": "s2_079",
+  "file_system": "开发人员",
+  "persona": "Backend Developer",
+  "job": "Backend Developer",
+  "user_profit": "开发人员",
+  "task": "Work out how secrets are actually handled here, because three mechanisms coexist and it is unclear which governs what. `vault_secrets_config.yaml` and `sealed_secrets_config.yaml` describe two different storage approaches, `secret_rotation_procedure.md` describes rotation, and `gitleaks_config.toml` describes what is scanned for on commit. Establish which secrets each mechanism covers, whether the rotation procedure applies to both storage approaches or only one, and whether anything currently in the `.env` files would be caught by the gitleaks rules if it were committed today. Report every secret covered by no mechanism at all, and separately every secret covered by two mechanisms that disagree about rotation, since a secret with two conflicting owners is worse than one with none. Say for each uncovered secret whether it is currently in use or a leftover from something retired, because the second can simply be deleted and only the first needs a home.",
+  "output_files": [
+    "secret_audit.md",
+    "uncovered_secrets.html"
+  ],
+  "task_diff": "hard",
+  "data_manifest": []
+}

@@ -1,0 +1,14 @@
+{
+  "absolute_id": "s2_156",
+  "id": "s2_156",
+  "file_system": "运营人员",
+  "persona": "Operations Manager",
+  "job": "Operations Manager",
+  "user_profit": "运营人员",
+  "task": "The 618 campaign left traces in several places nobody has put together: a budget request and redemption sheet, a main visual creative brief, banner A/B results, social media data and a quality check. Reconstruct what was planned, what was spent, what was produced and how it performed. Say where the five sources disagree with one another about any of those four, since the disagreements are what a retrospective is for.",
+  "output_files": [
+    "campaign_618_retrospective.pdf"
+  ],
+  "task_diff": "hard",
+  "data_manifest": []
+}

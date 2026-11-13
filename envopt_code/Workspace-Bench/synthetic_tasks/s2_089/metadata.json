@@ -1,0 +1,14 @@
+{
+  "absolute_id": "s2_089",
+  "id": "s2_089",
+  "file_system": "研究人员",
+  "persona": "Researcher",
+  "job": "Researcher",
+  "user_profit": "研究人员",
+  "task": "Five 2016 premium market analytics files sit in the Market_Data_Analysis folder. Establish which metrics they share and align them, noting where the single-product analysis cannot be reconciled with the aggregate ones because of differing scope. Write a briefing covering headline position, regional variation, and the indicators where the files disagree with one another.",
+  "output_files": [
+    "market_2016_briefing.pptx"
+  ],
+  "task_diff": "medium",
+  "data_manifest": []
+}

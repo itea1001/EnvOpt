@@ -1,0 +1,15 @@
+{
+  "absolute_id": "s2_157",
+  "id": "s2_157",
+  "file_system": "运营人员",
+  "persona": "Operations Manager",
+  "job": "Operations Manager",
+  "user_profit": "运营人员",
+  "task": "Six southeast Asian market entry strategies sit in the international folder covering Indonesia, Malaysia, the Philippines, Singapore, Thailand and Vietnam. They were written separately and nobody has read them side by side. Compare them on the dimensions they share and identify where two contradict each other on the same regional question, since a contradiction between strategies is a decision nobody has taken. Check each against `overseas_legal_compliance_assessment_report_2024.pdf` and record the compliance requirements each fails to address. Finally check `all_markets_kpi_tracking_sheet_2024.xlsx` and the overseas channel data summary to establish whether the markets already operating are meeting the targets these strategies assumed, because a strategy resting on assumptions the live markets have already disproved is not worth executing.",
+  "output_files": [
+    "market_entry_comparison.md",
+    "compliance_gaps.png"
+  ],
+  "task_diff": "hard",
+  "data_manifest": []
+}

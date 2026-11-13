@@ -1,0 +1,14 @@
+{
+  "absolute_id": "s2_097",
+  "id": "s2_097",
+  "file_system": "研究人员",
+  "persona": "Researcher",
+  "job": "Researcher",
+  "user_profit": "研究人员",
+  "task": "`gray_release_failure_case.md` describes an incident during a staged rollout and `AI_technology_meeting.md` discusses engineering risk more generally. Do the risks raised in the meeting cover what actually went wrong? List the ones that do, and identify the gap nobody had flagged beforehand.",
+  "output_files": [
+    "gray_release_lessons.txt"
+  ],
+  "task_diff": "medium",
+  "data_manifest": []
+}

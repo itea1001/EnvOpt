@@ -1,0 +1,14 @@
+{
+  "absolute_id": "s2_106",
+  "id": "s2_106",
+  "file_system": "研究人员",
+  "persona": "Researcher",
+  "job": "Researcher",
+  "user_profit": "研究人员",
+  "task": "Catalogue the documents templates folder: what each template is for, which stage of research it serves, and whether another template in the same folder does the same job. Sort them into subfolders by stage and rename them consistently, recording the original name of everything you move. Group the redundant sets — there are several proposal templates and several slide decks — and recommend one of each to standardise on, with the reason.",
+  "output_files": [
+    "research_templates.pptx"
+  ],
+  "task_diff": "hard",
+  "data_manifest": []
+}

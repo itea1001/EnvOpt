@@ -1,0 +1,14 @@
+{
+  "absolute_id": "s2_120",
+  "id": "s2_120",
+  "file_system": "研究人员",
+  "persona": "Researcher",
+  "job": "Researcher",
+  "user_profit": "研究人员",
+  "task": "The Team_Diagnostics folder holds eleven notes covering cost, customer progress, engineering risk, KPI tracking, OKR progress, an online incident, two process reviews, product feedback and the weekly sync. Read across all of them and find the problems appearing in more than one under different names. For each, say which notes report it and whether they agree on severity. Checking the KPI tracking against the OKR progress and flag every place where reported progress and measured KPI disagree.",
+  "output_files": [
+    "team_health.pdf"
+  ],
+  "task_diff": "hard",
+  "data_manifest": []
+}

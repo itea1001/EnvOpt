@@ -1,0 +1,14 @@
+{
+  "absolute_id": "s2_086",
+  "id": "s2_086",
+  "file_system": "研究人员",
+  "persona": "Researcher",
+  "job": "Researcher",
+  "user_profit": "研究人员",
+  "task": "Fill in `Experiment_Log.xls` from the templates folder using the entries in `seed_data_sheet.xls`.",
+  "output_files": [
+    "experiment_log_filled.xls"
+  ],
+  "task_diff": "easy",
+  "data_manifest": []
+}

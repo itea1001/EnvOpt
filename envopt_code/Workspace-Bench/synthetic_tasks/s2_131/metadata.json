@@ -1,0 +1,14 @@
+{
+  "absolute_id": "s2_131",
+  "id": "s2_131",
+  "file_system": "运营人员",
+  "persona": "Operations Manager",
+  "job": "Operations Manager",
+  "user_profit": "运营人员",
+  "task": "Cross-reference `vendor_qualifications_and_certification_tracking_sheet_2024.xlsx` with the expiration warning and re-review plan sheet. List vendors whose certification lapses within the plan window with no re-review scheduled, and note any vendor currently engaged whose certification has already expired.",
+  "output_files": [
+    "vendor_expiry_actions.doc"
+  ],
+  "task_diff": "medium",
+  "data_manifest": []
+}

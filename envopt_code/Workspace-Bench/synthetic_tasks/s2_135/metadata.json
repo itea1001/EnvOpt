@@ -1,0 +1,14 @@
+{
+  "absolute_id": "s2_135",
+  "id": "s2_135",
+  "file_system": "运营人员",
+  "persona": "Operations Manager",
+  "job": "Operations Manager",
+  "user_profit": "运营人员",
+  "task": "`pr_20240404_negative_public_opinion_response_statement.md` was issued during a live incident. Check it against `platform_public_opinion_crisis_response_contingency_plan_v2.md` and say which steps of the plan the response followed and which it skipped. Note whether the skipped steps were the slow ones, since that would explain the deviation.",
+  "output_files": [
+    "pr_response_review.md"
+  ],
+  "task_diff": "medium",
+  "data_manifest": []
+}

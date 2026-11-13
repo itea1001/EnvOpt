@@ -1,0 +1,14 @@
+{
+  "absolute_id": "s2_183",
+  "id": "s2_183",
+  "file_system": "行政/后勤人员",
+  "persona": "Logistics Manager",
+  "job": "Logistics Manager",
+  "user_profit": "行政/后勤人员",
+  "task": "The year_end_summaries folder holds several summaries written by different authors covering the same year. Merge them into one, keeping every distinct claim rather than only the ones they agree on, and remove the passages duplicated across summaries rather than repeating them. Note where two summaries describe the same event differently, since that usually reveals which team owned it.",
+  "output_files": [
+    "year_end_consolidated.doc"
+  ],
+  "task_diff": "medium",
+  "data_manifest": []
+}

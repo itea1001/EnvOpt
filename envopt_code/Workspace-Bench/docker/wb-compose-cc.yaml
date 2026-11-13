@@ -1,0 +1,36 @@
+# ClaudeCode variant of wb-compose.yaml. Kept as a SEPARATE file on purpose: the codex
+# template must stay byte-identical to what every measured codex run used, so nothing here
+# can reach a codex container.
+#
+# Two differences from wb-compose.yaml:
+#   1. the Claude subscription credentials are mounted READ-ONLY. The evolve box mounts the
+#      same file read-write (run_step.sh); :ro here means a target run can never
+#      race the evolve agent's token refresh.
+#   2. empty CLAUDECODE_API_KEY => subscription mode. claudecode.py:210-215 only sets
+#      ANTHROPIC_API_KEY / ANTHROPIC_AUTH_TOKEN when a non-empty key is present, so leaving
+#      it blank makes the Agent SDK fall back to the mounted credentials.
+services:
+  workspace-bench:
+    image: ${WB_IMAGE:-workspace-bench:local}
+    network_mode: host
+    working_dir: /workspace/Workspace-Bench/evaluation
+    environment:
+      WORKSPACE_BENCH_ROOT: /workspace/Workspace-Bench
+      WORKSPACE_BENCH_EVAL_ROOT: /workspace/Workspace-Bench/evaluation
+      CLAUDE_CONFIG_DIR: /root/.claude
+      IS_SANDBOX: "1"
+      CLAUDECODE_API_KEY: ${ANTHROPIC_API_KEY:-}
+      CLAUDECODE_BASE_URL: ""
+      OPUS5_API_KEY: ${ANTHROPIC_API_KEY:-}
+      OPUS5_BASE_URL: ""
+    volumes:
+      # the assembled eval-root (WB code + baselines + node_modules + task slice + output)
+      - ${WB_RUN_DIR}:/workspace/Workspace-Bench/evaluation
+      # each evolved world mounted READ-ONLY over its raw dir
+      - ${WB_ACCESS_DIR}/chanpin:/workspace/Workspace-Bench/evaluation/filesys/chanpin_raw:ro
+      - ${WB_ACCESS_DIR}/kaifa:/workspace/Workspace-Bench/evaluation/filesys/kaifa_raw:ro
+      - ${WB_ACCESS_DIR}/research:/workspace/Workspace-Bench/evaluation/filesys/research_raw:ro
+      - ${WB_ACCESS_DIR}/yunying:/workspace/Workspace-Bench/evaluation/filesys/yunying_raw:ro
+      - ${WB_ACCESS_DIR}/houqin:/workspace/Workspace-Bench/evaluation/filesys/houqin_raw:ro
+      # Claude subscription creds — READ-ONLY (see note 1 above)
+      - ${CLAUDE_CREDS}:/root/.claude/.credentials.json:ro

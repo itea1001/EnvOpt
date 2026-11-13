@@ -1,0 +1,14 @@
+{
+  "absolute_id": "s2_194",
+  "id": "s2_194",
+  "file_system": "行政/后勤人员",
+  "persona": "Logistics Manager",
+  "job": "Logistics Manager",
+  "user_profit": "行政/后勤人员",
+  "task": "The safety_inspections folder holds a year of inspections — `2024_01_january_warehouse_safety_inspection_report.pdf` in January, fire protection in February, hazardous goods in May, occupational health in June, labour protection in October, chemical storage in November and a year-end summary in December, several with a paired rectification tracker. Work out which hazards were found, which were closed by a tracker and which were not, and whether any hazard recurs in a later inspection after being marked closed. Produce a year-end review that says something the December summary does not already say.",
+  "output_files": [
+    "safety_year_review.pdf"
+  ],
+  "task_diff": "hard",
+  "data_manifest": []
+}

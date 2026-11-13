@@ -1,0 +1,14 @@
+{
+  "absolute_id": "s2_150",
+  "id": "s2_150",
+  "file_system": "运营人员",
+  "persona": "Operations Manager",
+  "job": "Operations Manager",
+  "user_profit": "运营人员",
+  "task": "The Q1 satisfaction research, the Q3 interview minutes and the core user cohorts research describe users at three different points. Write one synthesis saying which findings persist across all three and which appear only once. Treat a finding that shows up in only the earliest document as possibly stale rather than simply true.",
+  "output_files": [
+    "user_research_synthesis.pptx"
+  ],
+  "task_diff": "medium",
+  "data_manifest": []
+}

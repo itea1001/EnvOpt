@@ -1,0 +1,14 @@
+{
+  "absolute_id": "s2_176",
+  "id": "s2_176",
+  "file_system": "行政/后勤人员",
+  "persona": "Logistics Manager",
+  "job": "Logistics Manager",
+  "user_profit": "行政/后勤人员",
+  "task": "Compare `parking_space_application_and_approval_summary.xlsx` with `parking_space_usage_monthly_statistics.xlsx`, identifying approved spaces going consistently unused and usage with no approval behind it, since the one can be reallocated and the other needs regularising.",
+  "output_files": [
+    "parking_allocation.pptx"
+  ],
+  "task_diff": "medium",
+  "data_manifest": []
+}

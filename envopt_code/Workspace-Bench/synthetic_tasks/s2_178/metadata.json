@@ -1,0 +1,14 @@
+{
+  "absolute_id": "s2_178",
+  "id": "s2_178",
+  "file_system": "行政/后勤人员",
+  "persona": "Logistics Manager",
+  "job": "Logistics Manager",
+  "user_profit": "行政/后勤人员",
+  "task": "Using the warehouse folder and `park_layout_and_functional_area_description.pdf`, check whether the storage areas actually in use match the documented functional areas. Report any area being used for something other than its stated purpose, and say whether the difference looks deliberate or accidental. Flag any storage being used for something the layout document says it is unsuitable for, since a deliberate reallocation is an administrative matter and an unsuitable one may be a safety matter that nobody has recorded.",
+  "output_files": [
+    "warehouse_layout_review.md"
+  ],
+  "task_diff": "medium",
+  "data_manifest": []
+}

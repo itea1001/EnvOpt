@@ -1,0 +1,14 @@
+{
+  "absolute_id": "s2_189",
+  "id": "s2_189",
+  "file_system": "行政/后勤人员",
+  "persona": "Logistics Manager",
+  "job": "Logistics Manager",
+  "user_profit": "行政/后勤人员",
+  "task": "Build one supplier directory from the suppliers folder, deduplicating suppliers appearing under slightly different names and recording which spellings you merged into which. Mark which ones also appear in the framework agreements, since a supplier with a framework agreement should not be treated as ad hoc and buying from them outside the agreement usually means paying more than we agreed to. Note any supplier appearing in the framework agreements but absent from the suppliers folder entirely, because that is a contract nobody is managing, and say which of the deduplicated spellings each agreement was signed under so somebody can check the paperwork matches.",
+  "output_files": [
+    "supplier_directory.pptx"
+  ],
+  "task_diff": "medium",
+  "data_manifest": []
+}

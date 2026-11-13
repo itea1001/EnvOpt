@@ -1,0 +1,14 @@
+{
+  "absolute_id": "s2_126",
+  "id": "s2_126",
+  "file_system": "运营人员",
+  "persona": "Operations Manager",
+  "job": "Operations Manager",
+  "user_profit": "运营人员",
+  "task": "Summarise `user_persona_core_user_cohorts_research_2024.md` into a one-page brief for somebody about to write copy for these users. Keep the behavioural detail and drop the demographic padding, and mark any persona the research itself describes as provisional rather than evidenced.",
+  "output_files": [
+    "persona_brief.doc"
+  ],
+  "task_diff": "easy",
+  "data_manifest": []
+}

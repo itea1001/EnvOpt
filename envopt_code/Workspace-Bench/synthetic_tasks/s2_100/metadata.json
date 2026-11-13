@@ -1,0 +1,14 @@
+{
+  "absolute_id": "s2_100",
+  "id": "s2_100",
+  "file_system": "研究人员",
+  "persona": "Researcher",
+  "job": "Researcher",
+  "user_profit": "研究人员",
+  "task": "Compare the female mortality file against the overall one and identify the cancer types where the female pattern departs most from the general population. Give the figures behind each. Separate the cancers that are female-specific from those that simply present differently, since only the second group is surprising.",
+  "output_files": [
+    "mortality_female_gap.md"
+  ],
+  "task_diff": "medium",
+  "data_manifest": []
+}

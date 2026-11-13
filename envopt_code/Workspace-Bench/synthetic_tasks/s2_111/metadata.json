@@ -1,0 +1,14 @@
+{
+  "absolute_id": "s2_111",
+  "id": "s2_111",
+  "file_system": "研究人员",
+  "persona": "Researcher",
+  "job": "Researcher",
+  "user_profit": "研究人员",
+  "task": "Four 2021 annual reports sit in the desktop analysis folder — Sugon Digital Innovation, Huaxi Technology, Jinhao Medical and Guozi Software. Compare them on two things only: R&D spend relative to revenue, and how concentrated revenue is among top customers. The four do not present either figure the same way, so state the common definition you are applying. Say which company carries the most concentration risk for its level of R&D, and flag any report not disclosing enough to be placed. Where a company discloses the figure only in a note rather than the statements, say so, because a number that appears once in a footnote and nowhere in the headline tables is often the one the company would rather not be compared on, and treating it as equivalent to a disclosed figure would flatter that company against the others.",
+  "output_files": [
+    "smallcap_2021_comparison.doc"
+  ],
+  "task_diff": "hard",
+  "data_manifest": []
+}

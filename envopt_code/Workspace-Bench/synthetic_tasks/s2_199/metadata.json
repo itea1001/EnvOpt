@@ -1,0 +1,15 @@
+{
+  "absolute_id": "s2_199",
+  "id": "s2_199",
+  "file_system": "行政/后勤人员",
+  "persona": "Logistics Manager",
+  "job": "Logistics Manager",
+  "user_profit": "行政/后勤人员",
+  "task": "The temporary_affairs folder holds a large backlog of ad hoc requests accumulated over time with no triage. Work out what each is asking for, whether it was ever resolved, and who it belongs to. Produce a triage file recording request, owner, status and age, sorted by how long each has been outstanding. Put the items with no identifiable owner into a separate list, since an unowned request is not merely old, it is nobody's to close and will sit there until somebody is assigned. Where a request duplicates another, say so rather than listing both, and where you cannot tell whether something was resolved, mark it as such rather than guessing.",
+  "output_files": [
+    "temporary_affairs_triage.csv",
+    "unowned_items.html"
+  ],
+  "task_diff": "hard",
+  "data_manifest": []
+}

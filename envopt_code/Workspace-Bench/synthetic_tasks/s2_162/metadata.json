@@ -1,0 +1,14 @@
+{
+  "absolute_id": "s2_162",
+  "id": "s2_162",
+  "file_system": "行政/后勤人员",
+  "persona": "Logistics Manager",
+  "job": "Logistics Manager",
+  "user_profit": "行政/后勤人员",
+  "task": "Summarise `wuyuan_industrial_park_planning_indicator_summary.xlsx`.",
+  "output_files": [
+    "park_planning_summary.md"
+  ],
+  "task_diff": "easy",
+  "data_manifest": []
+}

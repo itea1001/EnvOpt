@@ -1,0 +1,14 @@
+{
+  "absolute_id": "s2_096",
+  "id": "s2_096",
+  "file_system": "研究人员",
+  "persona": "Researcher",
+  "job": "Researcher",
+  "user_profit": "研究人员",
+  "task": "Read `oncall_hui_gu.md` alongside `Stability Weekly.md` and list the recurring on-call problems. Mark which ones the stability weekly claims are already fixed, since a problem that keeps paging people after being declared fixed is the one worth raising. Note anything the on-call record shows that the weekly never mentions.",
+  "output_files": [
+    "oncall_review.md"
+  ],
+  "task_diff": "medium",
+  "data_manifest": []
+}

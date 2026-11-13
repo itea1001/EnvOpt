@@ -1,0 +1,14 @@
+{
+  "absolute_id": "s2_125",
+  "id": "s2_125",
+  "file_system": "运营人员",
+  "persona": "Operations Manager",
+  "job": "Operations Manager",
+  "user_profit": "运营人员",
+  "task": "Compare `strategy_roadmap_2024_2026.csv` against `strategy_priority_assessment_matrix_2024.xlsx` and report every roadmap item scheduled out of line with its assessed priority.",
+  "output_files": [
+    "roadmap_priority_check.txt"
+  ],
+  "task_diff": "easy",
+  "data_manifest": []
+}

@@ -1,0 +1,14 @@
+{
+  "absolute_id": "s2_042",
+  "id": "s2_042",
+  "file_system": "开发人员",
+  "persona": "Backend Developer",
+  "job": "Backend Developer",
+  "user_profit": "开发人员",
+  "task": "Combine the week 10, 11, 12 and 13 weekly reports into a single summary.",
+  "output_files": [
+    "weekly_rollup.md"
+  ],
+  "task_diff": "easy",
+  "data_manifest": []
+}

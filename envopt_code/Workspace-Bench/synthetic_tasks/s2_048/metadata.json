@@ -1,0 +1,14 @@
+{
+  "absolute_id": "s2_048",
+  "id": "s2_048",
+  "file_system": "开发人员",
+  "persona": "Backend Developer",
+  "job": "Backend Developer",
+  "user_profit": "开发人员",
+  "task": "Compare `owasp_checklist.md` against `owasp_top10_mitigation.md` and `security_checklist.md`. Which checklist items have no documented mitigation anywhere? Cross-check the open ones against `cve_tracking_log.md` and note which correspond to a real tracked vulnerability rather than a theoretical concern.",
+  "output_files": [
+    "security_gaps.md"
+  ],
+  "task_diff": "medium",
+  "data_manifest": []
+}

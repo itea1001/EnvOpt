@@ -1,0 +1,14 @@
+{
+  "absolute_id": "s2_061",
+  "id": "s2_061",
+  "file_system": "开发人员",
+  "persona": "Backend Developer",
+  "job": "Backend Developer",
+  "user_profit": "开发人员",
+  "task": "Take each SLO in `slo_definitions.yaml`, find its measurement in `slo_compliance_report_2025Q1.md`, and report which are met, which are missed, and which are defined but never actually measured. The third group matters most, since nobody is watching them.",
+  "output_files": [
+    "slo_compliance_review.txt"
+  ],
+  "task_diff": "medium",
+  "data_manifest": []
+}

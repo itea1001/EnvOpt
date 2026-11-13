@@ -1,0 +1,14 @@
+{
+  "absolute_id": "s2_179",
+  "id": "s2_179",
+  "file_system": "行政/后勤人员",
+  "persona": "Logistics Manager",
+  "job": "Logistics Manager",
+  "user_profit": "行政/后勤人员",
+  "task": "The Vendor_Settlement folder on the desktop holds twenty statements, `Statement_01.txt` through `Statement_20.txt`. Pull the common fields from each into one file, one row per statement, and flag any statement missing a field the others carry. Where two statements appear to cover the same period for the same vendor, treat them as duplicates and say which to keep.",
+  "output_files": [
+    "vendor_settlement_summary.xlsx"
+  ],
+  "task_diff": "medium",
+  "data_manifest": []
+}

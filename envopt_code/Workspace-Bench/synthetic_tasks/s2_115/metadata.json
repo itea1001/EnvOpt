@@ -1,0 +1,14 @@
+{
+  "absolute_id": "s2_115",
+  "id": "s2_115",
+  "file_system": "研究人员",
+  "persona": "Researcher",
+  "job": "Researcher",
+  "user_profit": "研究人员",
+  "task": "Build a supply risk view for the volume-based procurement programme. Combine the Guangdong ninth-batch winning product supply list, the backup supplier list for the same batch, the fifth-batch renewal list and the cefoxitin agreed volume file into one product-level table showing agreed volume, primary supplier and whether a backup exists. The four do not use consistent product naming, so reconcile that first or the volumes will not line up. Identify products carrying a volume commitment with no backup supplier, since a single supplier failure there becomes a contractual problem. Then use the Aimeike shareholder files and the Langzi share capital and unlock files to note where a supplier's ownership is concentrated or facing a near-term unlock, and flag any product that is both single-sourced and supplied by such a company.",
+  "output_files": [
+    "pharma_supply_risk.xlsx"
+  ],
+  "task_diff": "hard",
+  "data_manifest": []
+}

@@ -1,0 +1,15 @@
+{
+  "absolute_id": "s2_078",
+  "id": "s2_078",
+  "file_system": "开发人员",
+  "persona": "Backend Developer",
+  "job": "Backend Developer",
+  "user_profit": "开发人员",
+  "task": "The code-review folder holds eleven guides that overlap heavily — Java best practices, coding standards, Spring Boot, microservice, database, security review, API design review, refactoring, git workflow, the PR checklist and the metrics document. A reviewer currently has to know which of the eleven applies before reviewing anything. Merge them into one handbook organised by what a reviewer actually does in sequence — before opening the diff, while reading it, before approving — rather than by which document a rule came from. Where two guides state the same rule in incompatible terms, keep one version and record the conflict separately for somebody to adjudicate. Where a rule appears in only one guide, keep it and mark its source, since single-source rules are the ones most likely to be personal preference rather than agreed standard.",
+  "output_files": [
+    "code_review_handbook.md",
+    "rule_conflicts.png"
+  ],
+  "task_diff": "hard",
+  "data_manifest": []
+}

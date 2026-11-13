@@ -1,0 +1,14 @@
+{
+  "absolute_id": "s2_105",
+  "id": "s2_105",
+  "file_system": "研究人员",
+  "persona": "Researcher",
+  "job": "Researcher",
+  "user_profit": "研究人员",
+  "task": "`openapi_diao_yong_shou_ce.md` and `python_sdk_jie_ru_shou_ce.md` both explain how to call the same platform, one directly and one through the SDK. Check whether they describe the same endpoints and the same authentication flow, listing where they differ and which is more current where they conflict.",
+  "output_files": [
+    "openapi_manual_diff.txt"
+  ],
+  "task_diff": "medium",
+  "data_manifest": []
+}

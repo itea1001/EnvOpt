@@ -1,0 +1,14 @@
+{
+  "absolute_id": "s2_043",
+  "id": "s2_043",
+  "file_system": "开发人员",
+  "persona": "Backend Developer",
+  "job": "Backend Developer",
+  "user_profit": "开发人员",
+  "task": "Summarise `change_request_log.md` by status.",
+  "output_files": [
+    "change_request_status.txt"
+  ],
+  "task_diff": "easy",
+  "data_manifest": []
+}

@@ -1,0 +1,14 @@
+{
+  "absolute_id": "s2_110",
+  "id": "s2_110",
+  "file_system": "研究人员",
+  "persona": "Researcher",
+  "job": "Researcher",
+  "user_profit": "研究人员",
+  "task": "Compare the Chinese and Japanese car markets. Combine `Aito.xlsx`, `BYD.xlsx`, `Great_Wall.xlsx` and `SAIC.xlsx` under Automaker_Data into one model-level table, then do the same for Japan using the January 2020 output and sales files and the 2025 tables. The two Japanese output files use different naming conventions, so reconcile those first. Report how model mix differs between the markets, and state plainly which comparisons the differing time coverage does not support.",
+  "output_files": [
+    "automaker_comparison.xlsx"
+  ],
+  "task_diff": "hard",
+  "data_manifest": []
+}

@@ -1,0 +1,15 @@
+{
+  "absolute_id": "s2_159",
+  "id": "s2_159",
+  "file_system": "运营人员",
+  "persona": "Operations Manager",
+  "job": "Operations Manager",
+  "user_profit": "运营人员",
+  "task": "Customer service records here are in several formats nobody has read together: a quarterly retrospective in markdown, a complaints archive and ticket samples in JSON, a team performance evaluation sheet, and a health score model. Pull them into one account of how service actually performed in Q3 2024. Use the ticket samples and complaints archive to establish what users complained about rather than what the retrospective says they complained about, and check whether the reception standards manual covers those situations at all. Record the complaint themes the manual has nothing to say about, since those are the cases where agents are improvising, and check whether the performance evaluation rewards handling them well or only rewards the cases the manual already covers. If the evaluation only measures the covered cases, say so plainly, because the agents doing the hardest work will be scoring worst and nobody will be able to see why from the numbers alone.",
+  "output_files": [
+    "customer_service_review.md",
+    "sop_gaps.csv"
+  ],
+  "task_diff": "hard",
+  "data_manifest": []
+}

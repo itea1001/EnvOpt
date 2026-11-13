@@ -1,0 +1,14 @@
+{
+  "absolute_id": "s2_153",
+  "id": "s2_153",
+  "file_system": "运营人员",
+  "persona": "Operations Manager",
+  "job": "Operations Manager",
+  "user_profit": "运营人员",
+  "task": "The user-operations folder holds retention files by cohort and month — low activity, new, paying and student users in January; churn warning, existing, high activity and new market in February; low activity and paying again in March. Only the cohorts appearing in more than one month support a genuine month-over-month comparison, so identify those and say plainly which cohorts cannot be compared rather than comparing them anyway. Build a retention curve per cohort and identify the one whose shape departs most from the rest.",
+  "output_files": [
+    "retention_cohorts.xlsx"
+  ],
+  "task_diff": "hard",
+  "data_manifest": []
+}

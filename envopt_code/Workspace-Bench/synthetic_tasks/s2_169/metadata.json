@@ -1,0 +1,14 @@
+{
+  "absolute_id": "s2_169",
+  "id": "s2_169",
+  "file_system": "行政/后勤人员",
+  "persona": "Logistics Manager",
+  "job": "Logistics Manager",
+  "user_profit": "行政/后勤人员",
+  "task": "Cross-reference `core_file_inventory.xlsx` with `current_user_permission_configuration.xlsx` to produce a matrix of who can reach what. Then use `department_structure_adjustment_notice.docx` to find users who have changed department, and list the permissions that should have changed as a result but have not.",
+  "output_files": [
+    "permission_audit.xlsx"
+  ],
+  "task_diff": "medium",
+  "data_manifest": []
+}

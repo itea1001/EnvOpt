@@ -1,0 +1,15 @@
+{
+  "absolute_id": "s2_076",
+  "id": "s2_076",
+  "file_system": "开发人员",
+  "persona": "Backend Developer",
+  "job": "Backend Developer",
+  "user_profit": "开发人员",
+  "task": "Take each threat in `threat_model.md` and find its control — in `security_design.md`, in `security_policy.md`, in a configuration file, or in one of the Java security classes such as the CORS config, the headers filter or the rate limiter. Produce a table of threat, control and where the control actually lives, since a control described in a document but absent from the code is not a control. List the threats with no identifiable control anywhere, and separately the security code defending against nothing in the model, which is either dead code or an undocumented threat. Check `vulnerability_management_process.md` and say whether the uncontrolled threats would be caught by that process anyway or are genuinely unwatched.",
+  "output_files": [
+    "threat_coverage.md",
+    "uncontrolled_threats.csv"
+  ],
+  "task_diff": "hard",
+  "data_manifest": []
+}

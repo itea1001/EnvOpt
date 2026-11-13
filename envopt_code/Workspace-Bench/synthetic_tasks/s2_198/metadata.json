@@ -1,0 +1,15 @@
+{
+  "absolute_id": "s2_198",
+  "id": "s2_198",
+  "file_system": "行政/后勤人员",
+  "persona": "Logistics Manager",
+  "job": "Logistics Manager",
+  "user_profit": "行政/后勤人员",
+  "task": "Meeting content in the logistics tree sits in three separate folders — meeting_materials, meeting_minutes and meeting_records — with hundreds of files between them and no obvious relationship. First work out which of the three holds the authoritative record of what was decided, and whether the other two duplicate it, precede it, or add something it lacks. Write that structure down, since everything else depends on it and nobody currently knows, and extract every action item with its owner and the meeting it came from, group the items restating the same commitment across several meetings, and record how many times each has been raised. An action raised in four consecutive meetings is not four actions, it is one action nobody is doing, and the register should make that visible. Where an action is raised, closed, and then raised again later, treat that as a reopening rather than a new item, and say what changed between the two.",
+  "output_files": [
+    "meeting_actions.csv",
+    "record_structure.md"
+  ],
+  "task_diff": "hard",
+  "data_manifest": []
+}

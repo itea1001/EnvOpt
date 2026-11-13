@@ -1,0 +1,14 @@
+{
+  "absolute_id": "s2_070",
+  "id": "s2_070",
+  "file_system": "开发人员",
+  "persona": "Backend Developer",
+  "job": "Backend Developer",
+  "user_profit": "开发人员",
+  "task": "Read the six migrations V1 through V6 to establish the current schema, then read `slow_query_analysis.sql`. For each slow query work out which columns it filters and joins on and whether an index covering them already exists from V4 or V5. Propose the indexes genuinely missing, naming the specific query that justifies each, and separately list the queries no index will fix because the problem is the shape of the query rather than the absence of an index. For each proposed index say what it will cost on write as well as what it saves on read, since an index added to a hot write path can be worse than the slow query it was meant to fix, and note any pair of proposed indexes where one would make the other redundant.",
+  "output_files": [
+    "schema_index_review.md"
+  ],
+  "task_diff": "hard",
+  "data_manifest": []
+}

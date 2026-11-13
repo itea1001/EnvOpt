@@ -1,0 +1,16 @@
+{
+  "absolute_id": "s2_077",
+  "id": "s2_077",
+  "file_system": "开发人员",
+  "persona": "Backend Developer",
+  "job": "Backend Developer",
+  "user_profit": "开发人员",
+  "task": "The five files IntegrationTest_1 through IntegrationTest_5 in the test_cases integration_tests folder duplicate one another heavily — all five exercise broadly the same endpoint in broadly the same way. Work out what logic is genuinely common to all five and pull it into a base class the others can extend, deciding what each of the five should test instead so that between them the suite covers the forward path, boundary values, error conditions, concurrency and data consistency without any two overlapping. Write the base class, a note explaining what each subclass becomes responsible for and how they relate, and a coverage table showing which dimension each subclass now owns, so a reviewer can see at a glance that nothing is tested twice and nothing is missed. Name any behaviour the current five exercise that none of the five new dimensions would cover, since that is coverage the refactor would silently lose and it is cheaper to notice now than after the originals are deleted.",
+  "output_files": [
+    "integration_suite_plan.md",
+    "BaseIntegrationTest.java",
+    "suite_coverage.png"
+  ],
+  "task_diff": "hard",
+  "data_manifest": []
+}

@@ -1,0 +1,16 @@
+{
+  "absolute_id": "s2_200",
+  "id": "s2_200",
+  "file_system": "行政/后勤人员",
+  "persona": "Logistics Manager",
+  "job": "Logistics Manager",
+  "user_profit": "行政/后勤人员",
+  "task": "Write the logistics department's 2024 annual report. Take activity from the monthly work logs, cost from the reports sent to finance, assets from the fixed asset ledger, stock levels and movement from the inventory records, safety from the year's inspections and rectification trackers, and staffing from the organisational structure. Where the existing year-end summaries already make a claim, check it against the underlying records rather than repeating it, since the point of this report is to be the version somebody can rely on. Produce the report itself, a supporting spreadsheet holding every figure it cites alongside the file that figure came from so any number can be checked without re-reading the tree, and a simple cover image for the front page.",
+  "output_files": [
+    "logistics_annual_report.md",
+    "supporting_figures.xlsx",
+    "cover.png"
+  ],
+  "task_diff": "hard",
+  "data_manifest": []
+}

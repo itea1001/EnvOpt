@@ -1,0 +1,14 @@
+{
+  "absolute_id": "s2_195",
+  "id": "s2_195",
+  "file_system": "行政/后勤人员",
+  "persona": "Logistics Manager",
+  "job": "Logistics Manager",
+  "user_profit": "行政/后勤人员",
+  "task": "The business_trips folder holds records for a number of people. Build one view per person showing the trips taken, the cost of each, and cost per trip day, then identify who is consistently above the group rather than who happened to take one expensive trip. Report any trip whose records are incomplete rather than filling in the gap, since an incomplete record is itself worth chasing.",
+  "output_files": [
+    "business_trip_costs.xlsx"
+  ],
+  "task_diff": "hard",
+  "data_manifest": []
+}

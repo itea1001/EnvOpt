@@ -1,0 +1,14 @@
+{
+  "absolute_id": "s2_063",
+  "id": "s2_063",
+  "file_system": "开发人员",
+  "persona": "Backend Developer",
+  "job": "Backend Developer",
+  "user_profit": "开发人员",
+  "task": "Four Grafana dashboards sit in the monitoring folder, `grafana-api-dashboard.json` and its business, jvm and kafka counterparts. Produce one inventory of every panel across all four with the metric it queries, and mark the metrics appearing in more than one dashboard, since those are the ones that will diverge when somebody edits only one.",
+  "output_files": [
+    "grafana_panel_inventory.json"
+  ],
+  "task_diff": "medium",
+  "data_manifest": []
+}

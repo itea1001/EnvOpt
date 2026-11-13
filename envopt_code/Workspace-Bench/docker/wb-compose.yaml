@@ -1,0 +1,38 @@
+# Pre-wired run config the evolve agent uses to launch ONE target run (all 5 worlds).
+# The agent runs:  docker compose -f /work/wb-compose.yaml run --rm workspace-bench \
+#                    bash .../run-benchmark.sh --harness codex --model gpt-5.4-mini ...
+#
+# docker-from-docker note: the evolve container talks to the host docker engine through the mounted
+# socket, so all volume SOURCES below must be HOST paths (the engine resolves them on
+# the host). The launcher exports WB_RUN_DIR / WB_ACCESS_DIR to this step's host paths;
+# WB_ACCESS_DIR holds one evolved world per subfolder (chanpin/ kaifa/ research/ yunying/ houqin/).
+services:
+  workspace-bench:
+    # defaults to the pinned image (codex 0.130.0). The GPT-5.6 family needs codex >= 0.144,
+    # so those runs set WB_IMAGE=workspace-bench:codex149. Never bump the default: the target
+    # agent's codex version is part of the harness, and changing it in place would break
+    # comparability with every result already measured.
+    image: ${WB_IMAGE:-workspace-bench:local}
+    network_mode: host
+    working_dir: /workspace/Workspace-Bench/evaluation
+    environment:
+      WORKSPACE_BENCH_ROOT: /workspace/Workspace-Bench
+      WORKSPACE_BENCH_EVAL_ROOT: /workspace/Workspace-Bench/evaluation
+      CODEX_SANDBOX_MODE: danger-full-access
+      CODEX_HOME: /root/.codex
+      # empty key + mounted CODEX_HOME => codex subscription mode (see workspace-bench.patch)
+      GPT54MINI_API_KEY: ${GPT54MINI_API_KEY:-}
+      GPT54MINI_BASE_URL: ${GPT54MINI_BASE_URL:-}
+      GPT56SOL_API_KEY: ${GPT56SOL_API_KEY:-}
+      GPT56SOL_BASE_URL: ${GPT56SOL_BASE_URL:-}
+    volumes:
+      # the assembled eval-root (WB code + task slice + output) becomes /…/evaluation
+      - ${WB_RUN_DIR}:/workspace/Workspace-Bench/evaluation
+      # each evolved world mounted READ-ONLY over its raw dir
+      - ${WB_ACCESS_DIR}/chanpin:/workspace/Workspace-Bench/evaluation/filesys/chanpin_raw:ro
+      - ${WB_ACCESS_DIR}/kaifa:/workspace/Workspace-Bench/evaluation/filesys/kaifa_raw:ro
+      - ${WB_ACCESS_DIR}/research:/workspace/Workspace-Bench/evaluation/filesys/research_raw:ro
+      - ${WB_ACCESS_DIR}/yunying:/workspace/Workspace-Bench/evaluation/filesys/yunying_raw:ro
+      - ${WB_ACCESS_DIR}/houqin:/workspace/Workspace-Bench/evaluation/filesys/houqin_raw:ro
+      # codex login (subscription mode); any empty folder works in API-key mode
+      - ${CODEX_HOME_HOST}:/root/.codex

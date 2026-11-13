@@ -1,0 +1,14 @@
+{
+  "absolute_id": "s2_051",
+  "id": "s2_051",
+  "file_system": "开发人员",
+  "persona": "Backend Developer",
+  "job": "Backend Developer",
+  "user_profit": "开发人员",
+  "task": "Rate limiting is described in `rate_limiting_spec.md`, configured in `rate_limit_config.yaml` and implemented in `rate_limiter_implementation.java`. Check the three agree on limits, on windows, and on what happens when a limit is hit, and report any place where the running behaviour would differ from the specification.",
+  "output_files": [
+    "rate_limit_consistency.txt"
+  ],
+  "task_diff": "medium",
+  "data_manifest": []
+}

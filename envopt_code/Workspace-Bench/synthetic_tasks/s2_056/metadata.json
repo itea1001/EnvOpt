@@ -1,0 +1,14 @@
+{
+  "absolute_id": "s2_056",
+  "id": "s2_056",
+  "file_system": "开发人员",
+  "persona": "Backend Developer",
+  "job": "Backend Developer",
+  "user_profit": "开发人员",
+  "task": "The build folder holds both a Gradle and a Maven configuration, which cannot both be live. Work out which one actually builds the project and what the other is for, and whether `dependency_convergence.xml` and `checkstyle.xml` are wired into either of them or into neither.",
+  "output_files": [
+    "build_config_summary.txt"
+  ],
+  "task_diff": "medium",
+  "data_manifest": []
+}

@@ -1,0 +1,14 @@
+{
+  "absolute_id": "s2_190",
+  "id": "s2_190",
+  "file_system": "行政/后勤人员",
+  "persona": "Logistics Manager",
+  "job": "Logistics Manager",
+  "user_profit": "行政/后勤人员",
+  "task": "There is a folder named archive_do_not_touch. Without moving or changing anything inside it, work out what it holds and whether any of it duplicates files elsewhere in the logistics tree. Present what you found as a short deck, since somebody will have to decide whether the folder can finally be cleared.",
+  "output_files": [
+    "archive_review.pptx"
+  ],
+  "task_diff": "medium",
+  "data_manifest": []
+}

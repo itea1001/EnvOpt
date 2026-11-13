@@ -1,0 +1,14 @@
+{
+  "absolute_id": "s2_080",
+  "id": "s2_080",
+  "file_system": "开发人员",
+  "persona": "Backend Developer",
+  "job": "Backend Developer",
+  "user_profit": "开发人员",
+  "task": "Write a runbook for applying the database migrations to production, drawing the steps from `db_maintenance.sh`, `db_migration.sh` and `production_runbook.md`. Note every place the two scripts disagree about ordering or about how to roll back, since whoever runs this at midnight will follow one of them and not know the other exists.",
+  "output_files": [
+    "migration_runbook.doc"
+  ],
+  "task_diff": "medium",
+  "data_manifest": []
+}

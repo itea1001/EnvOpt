@@ -1,0 +1,15 @@
+{
+  "absolute_id": "s2_118",
+  "id": "s2_118",
+  "file_system": "研究人员",
+  "persona": "Researcher",
+  "job": "Researcher",
+  "user_profit": "研究人员",
+  "task": "OKR tracking in the documents meetings folder is spread across seven overlapping documents — `OKR.md`, `Stability OKR.md`, `Stability Weekly.md`, the quarterly sync document, the product quarterly sync, `okr_jin_zhan_tong_bu.md` and the summary. Establish the set of distinct objectives, noting where the general OKR file and the stability OKR file state what is really the same objective in different words. For each objective assemble its reported progress from every source that mentions it, and where two sources report different progress record both rather than averaging them, since a disagreement about progress usually means two teams believe they own the same goal. Reading `oncall_hui_gu.md`, and identify any stability objective the operational record contradicts, because a green objective with a bad on-call history is the one worth raising.",
+  "output_files": [
+    "okr_consolidated.doc",
+    "progress_conflicts.png"
+  ],
+  "task_diff": "hard",
+  "data_manifest": []
+}

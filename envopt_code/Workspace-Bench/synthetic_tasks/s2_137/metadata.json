@@ -1,0 +1,14 @@
+{
+  "absolute_id": "s2_137",
+  "id": "s2_137",
+  "file_system": "运营人员",
+  "persona": "Operations Manager",
+  "job": "Operations Manager",
+  "user_profit": "运营人员",
+  "task": "`all_channels_conversion_funnel_analysis_2024q3.xlsx` shows where users drop out and `core_conversion_funnel_analysis_first_purchase_path_2024q4.xlsx` shows the first-purchase path in more detail. Find the weakest stage, then use `user_behavior_flow_report.md` to explain what users actually do at that point rather than only how many are lost.",
+  "output_files": [
+    "funnel_diagnosis.docx"
+  ],
+  "task_diff": "medium",
+  "data_manifest": []
+}

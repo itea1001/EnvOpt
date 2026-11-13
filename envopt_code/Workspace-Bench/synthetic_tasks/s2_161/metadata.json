@@ -1,0 +1,14 @@
+{
+  "absolute_id": "s2_161",
+  "id": "s2_161",
+  "file_system": "行政/后勤人员",
+  "persona": "Logistics Manager",
+  "job": "Logistics Manager",
+  "user_profit": "行政/后勤人员",
+  "task": "Summarise the four February 2024 notices, `notice_008.txt` through `notice_019.txt`, into one digest.",
+  "output_files": [
+    "notices_february.txt"
+  ],
+  "task_diff": "easy",
+  "data_manifest": []
+}

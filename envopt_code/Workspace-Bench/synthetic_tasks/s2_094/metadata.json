@@ -1,0 +1,14 @@
+{
+  "absolute_id": "s2_094",
+  "id": "s2_094",
+  "file_system": "研究人员",
+  "persona": "Researcher",
+  "job": "Researcher",
+  "user_profit": "研究人员",
+  "task": "Extract every action item from `Quarterly Sync Document.md` and `Product Quarterly Sync.md`. Deduplicate the ones appearing in both, since the two documents cover overlapping meetings, and record owner, item and which document it came from. Flag any action with no owner named.",
+  "output_files": [
+    "quarterly_sync_actions.txt"
+  ],
+  "task_diff": "medium",
+  "data_manifest": []
+}

@@ -1,0 +1,14 @@
+{
+  "absolute_id": "s2_192",
+  "id": "s2_192",
+  "file_system": "行政/后勤人员",
+  "persona": "Logistics Manager",
+  "job": "Logistics Manager",
+  "user_profit": "行政/后勤人员",
+  "task": "Seven FY2023 files beginning with `1_2_2023yearregional_medical_health_institution_counts.xlsx` describe medical institutions by region, by category, staffing, building area, assets and liabilities, income and expenditure, and bed utilisation. Join them so each category shows its count, staffing per institution, financial position and bed usage. Identify the categories running a deficit and use the bed utilisation to say whether they are under-used or over-stretched, since the two call for opposite responses. State plainly any category present in one file and absent from another rather than assuming the sets match.",
+  "output_files": [
+    "healthcare_fy2023.xlsx"
+  ],
+  "task_diff": "hard",
+  "data_manifest": []
+}

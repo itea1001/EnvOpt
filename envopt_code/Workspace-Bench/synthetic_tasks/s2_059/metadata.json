@@ -1,0 +1,14 @@
+{
+  "absolute_id": "s2_059",
+  "id": "s2_059",
+  "file_system": "开发人员",
+  "persona": "Backend Developer",
+  "job": "Backend Developer",
+  "user_profit": "开发人员",
+  "task": "Compare `gatling_load_test_report_v2.3.md` and `k6_smoke_test_report_v2.3.md` against `q4_2024_performance_baseline_report.md`. Which scenarios have regressed since the baseline, and does `api_latency_analysis_report.md` offer an explanation for any of them?",
+  "output_files": [
+    "perf_regression_v2.3.pdf"
+  ],
+  "task_diff": "medium",
+  "data_manifest": []
+}

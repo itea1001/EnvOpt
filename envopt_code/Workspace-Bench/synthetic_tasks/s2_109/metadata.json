@@ -1,0 +1,14 @@
+{
+  "absolute_id": "s2_109",
+  "id": "s2_109",
+  "file_system": "研究人员",
+  "persona": "Researcher",
+  "job": "Researcher",
+  "user_profit": "研究人员",
+  "task": "Five two-year files cover China-Japan trade from 2015 through 2024. Join them into one decade-long series by commodity category, resolving category names that differ between files so the same commodity is not split into two series. Compute the trend per category, identify those reversing direction partway through, and note any category appearing in only some files rather than dropping it silently, since a category that stops being reported is itself a finding. Where a category's name changes between files, say whether you judged it the same commodity or a genuinely new one and what led you to that view, because that single decision can turn a decade of steady growth into two unrelated short series or the reverse.",
+  "output_files": [
+    "china_japan_trade_decade.xlsx"
+  ],
+  "task_diff": "hard",
+  "data_manifest": []
+}

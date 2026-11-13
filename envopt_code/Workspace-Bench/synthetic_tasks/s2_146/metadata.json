@@ -1,0 +1,14 @@
+{
+  "absolute_id": "s2_146",
+  "id": "s2_146",
+  "file_system": "运营人员",
+  "persona": "Operations Manager",
+  "job": "Operations Manager",
+  "user_profit": "运营人员",
+  "task": "`q3_operations_data_overview_and_achievement_rate.xlsx` reports achievement rates and `user_growth_tracking_sheet_2024.xlsx` holds the underlying growth data. Check whether the reported rates actually follow from the tracking data and flag any metric where they do not. Say for each discrepancy which of the two you find more credible and what led you to that view. Where the achievement rate depends on a target that was revised partway through the period, say what the rate would have been against the original target, since a metric that hits its goal only after the goal moved is not the same as one that hit the goal it started with.",
+  "output_files": [
+    "kpi_achievement.pdf"
+  ],
+  "task_diff": "hard",
+  "data_manifest": []
+}

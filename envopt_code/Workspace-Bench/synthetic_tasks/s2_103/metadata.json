@@ -1,0 +1,14 @@
+{
+  "absolute_id": "s2_103",
+  "id": "s2_103",
+  "file_system": "研究人员",
+  "persona": "Researcher",
+  "job": "Researcher",
+  "user_profit": "研究人员",
+  "task": "Three proposal templates sit in the templates folder — `Research-Project-Proposal-Template-Free.docx`, `NSERC-Alliance-Advance-proposal-template.docx` and `uthsc-comc-research-proposal-template.doc`. Compare what sections each demands and draft an outline satisfying all three at once, marking the sections only one of them requires, so a writer targeting a single funder knows what they can drop.",
+  "output_files": [
+    "proposal_outline.docx"
+  ],
+  "task_diff": "medium",
+  "data_manifest": []
+}

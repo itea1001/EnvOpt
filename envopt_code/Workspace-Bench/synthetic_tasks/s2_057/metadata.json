@@ -1,0 +1,14 @@
+{
+  "absolute_id": "s2_057",
+  "id": "s2_057",
+  "file_system": "开发人员",
+  "persona": "Backend Developer",
+  "job": "Backend Developer",
+  "user_profit": "开发人员",
+  "task": "Check `sprint_backlog_v2.4.md` against `PRD_order_management.md` and `PRD_payment_system.md`. Which backlog items trace back to a stated requirement, and which appeared from nowhere? Flag the second group, since unrequested work is either scope creep or an undocumented decision.",
+  "output_files": [
+    "sprint_backlog_review.docx"
+  ],
+  "task_diff": "medium",
+  "data_manifest": []
+}

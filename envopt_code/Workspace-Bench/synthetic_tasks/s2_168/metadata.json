@@ -1,0 +1,14 @@
+{
+  "absolute_id": "s2_168",
+  "id": "s2_168",
+  "file_system": "行政/后勤人员",
+  "persona": "Logistics Manager",
+  "job": "Logistics Manager",
+  "user_profit": "行政/后勤人员",
+  "task": "Six employment contract templates sit in the EMPLOYMENT_CONTRACT folder, from `2_Labor_Contracts_Generic.docx` to `Piecework_Labor_Contract.docx`, covering generic, no fixed term, part-time, temporary, piecework and foreign employment. Compare them on term, working hours, pay basis, termination and probation. Flag any template omitting a clause its employment type ought to require.",
+  "output_files": [
+    "employment_contract_comparison.xlsx"
+  ],
+  "task_diff": "medium",
+  "data_manifest": []
+}

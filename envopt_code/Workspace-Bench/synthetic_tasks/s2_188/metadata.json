@@ -1,0 +1,14 @@
+{
+  "absolute_id": "s2_188",
+  "id": "s2_188",
+  "file_system": "行政/后勤人员",
+  "persona": "Logistics Manager",
+  "job": "Logistics Manager",
+  "user_profit": "行政/后勤人员",
+  "task": "Compare `department_organizational_structure_and_staffing.xlsx` with what the performance_hr_requested folder actually contains. Report the departments whose staffing does not match the documented structure, and say whether the difference is people missing from the structure or missing from the folder, because the two point at different failures — one means the organisation chart is stale and the other means the HR records are. Where a department appears in one source under a name that does not match the other, say whether you judged it the same department and what led you to that view, since a renamed department will otherwise look like both a vacancy and a surplus at once.",
+  "output_files": [
+    "staffing_vs_org.docx"
+  ],
+  "task_diff": "medium",
+  "data_manifest": []
+}

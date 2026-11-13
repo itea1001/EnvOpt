@@ -1,0 +1,15 @@
+{
+  "absolute_id": "s2_116",
+  "id": "s2_116",
+  "file_system": "研究人员",
+  "persona": "Researcher",
+  "job": "Researcher",
+  "user_profit": "研究人员",
+  "task": "Five cost files sit in the Statistical folder: a cost control table, an e-commerce sales profit statement, an operating income statement, a profit and loss prediction model, and a snap-up profit calculation. They were built by different people and use the same words for different quantities — cost in one is not cost in another. Establish one consistent definition of cost and revenue across all five and state it plainly, since every number downstream depends on it. Produce a unified margin table by product or category, then use the assumptions in the prediction model to show how margin responds to the two or three inputs it is most sensitive to. Flag every figure appearing in more than one file with a different value, and put the definitional decisions in a separate note so a reader can disagree with your reading without re-deriving the model.",
+  "output_files": [
+    "margin_model.xlsx",
+    "definition_notes.md"
+  ],
+  "task_diff": "hard",
+  "data_manifest": []
+}

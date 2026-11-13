@@ -1,0 +1,14 @@
+{
+  "absolute_id": "s2_102",
+  "id": "s2_102",
+  "file_system": "研究人员",
+  "persona": "Researcher",
+  "job": "Researcher",
+  "user_profit": "研究人员",
+  "task": "Using `Analytics_Premium_2016_Regional_Sales_Analytics.xlsx` and `Data_Analytics_Premium_2016_Multidimensional_Metrics_Analysis.xls`, produce one regional breakdown carrying both the sales figures and the derived indicators side by side. Note any region present in one file but not the other rather than dropping it, since a missing region usually means a reporting change rather than no sales.",
+  "output_files": [
+    "market_regional_2016.pdf"
+  ],
+  "task_diff": "medium",
+  "data_manifest": []
+}

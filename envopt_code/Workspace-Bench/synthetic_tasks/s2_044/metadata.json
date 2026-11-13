@@ -1,0 +1,14 @@
+{
+  "absolute_id": "s2_044",
+  "id": "s2_044",
+  "file_system": "开发人员",
+  "persona": "Backend Developer",
+  "job": "Backend Developer",
+  "user_profit": "开发人员",
+  "task": "Extract the action items from `incident_perf_postmortem_20250215.md` and say which have an owner.",
+  "output_files": [
+    "postmortem_actions.md"
+  ],
+  "task_diff": "easy",
+  "data_manifest": []
+}

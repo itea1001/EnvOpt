@@ -1,0 +1,14 @@
+{
+  "absolute_id": "s2_132",
+  "id": "s2_132",
+  "file_system": "运营人员",
+  "persona": "Operations Manager",
+  "job": "Operations Manager",
+  "user_profit": "运营人员",
+  "task": "The workflows folder holds a set of YAML automation definitions. Produce an inventory of what each one triggers on, what it does and which system it touches, checking them against `workflow_config_checklist.csv` and listing any workflow the checklist does not cover, since an unlisted automation is one nobody is maintaining. Rename the files so each name says what the workflow does rather than only naming the system it touches, and record the old name against the new one.",
+  "output_files": [
+    "workflow_inventory.xlsx"
+  ],
+  "task_diff": "medium",
+  "data_manifest": []
+}

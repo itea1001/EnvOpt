@@ -1,0 +1,15 @@
+{
+  "absolute_id": "s2_149",
+  "id": "s2_149",
+  "file_system": "运营人员",
+  "persona": "Operations Manager",
+  "job": "Operations Manager",
+  "user_profit": "运营人员",
+  "task": "Standard operating procedures are scattered through this workspace under several naming conventions — some prefixed `sop_`, some called manuals, some guidelines. Find them all, gather them into one folder, rename them consistently, and record each one's original location so nothing is lost track of.",
+  "output_files": [
+    "sop_library/",
+    "sop_index.md"
+  ],
+  "task_diff": "medium",
+  "data_manifest": []
+}

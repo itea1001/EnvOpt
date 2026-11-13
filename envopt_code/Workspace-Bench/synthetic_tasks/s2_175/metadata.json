@@ -1,0 +1,14 @@
+{
+  "absolute_id": "s2_175",
+  "id": "s2_175",
+  "file_system": "行政/后勤人员",
+  "persona": "Logistics Manager",
+  "job": "Logistics Manager",
+  "user_profit": "行政/后勤人员",
+  "task": "Using the framework agreement execution tracking ledger, the execution analysis report and the equipment repair service annual framework agreement, report which commitments in the agreement are being met and which the ledger shows falling behind. Note any commitment the ledger does not track at all, since an untracked commitment is one nobody will notice being missed until the agreement is up for renewal. Say for each shortfall whether the agreement specifies a remedy and whether it has been invoked, because a contractual remedy that exists on paper and has never been used tells you something about how the relationship is actually managed.",
+  "output_files": [
+    "framework_agreement_status.pdf"
+  ],
+  "task_diff": "medium",
+  "data_manifest": []
+}

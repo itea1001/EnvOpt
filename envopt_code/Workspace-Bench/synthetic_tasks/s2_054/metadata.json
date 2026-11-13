@@ -1,0 +1,14 @@
+{
+  "absolute_id": "s2_054",
+  "id": "s2_054",
+  "file_system": "开发人员",
+  "persona": "Backend Developer",
+  "job": "Backend Developer",
+  "user_profit": "开发人员",
+  "task": "Walk `deployment_checklist.md` against `deployment_guide.md` and `production_runbook.md`, marking each checklist item as covered, partly covered or absent. Check also whether `rollback_procedure.md` covers every deployment path the guide describes, since a path with no rollback is the one that will need one.",
+  "output_files": [
+    "deployment_readiness.doc"
+  ],
+  "task_diff": "medium",
+  "data_manifest": []
+}

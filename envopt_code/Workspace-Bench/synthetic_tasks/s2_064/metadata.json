@@ -1,0 +1,14 @@
+{
+  "absolute_id": "s2_064",
+  "id": "s2_064",
+  "file_system": "开发人员",
+  "persona": "Backend Developer",
+  "job": "Backend Developer",
+  "user_profit": "开发人员",
+  "task": "Documents across the architecture, specifications and requirements folders reference version numbers. Extract every version reference and report whether it still matches what `build-info.properties` and `CHANGELOG.md` say is current, so we know which documents are describing a system that no longer exists.",
+  "output_files": [
+    "docs_freshness.txt"
+  ],
+  "task_diff": "medium",
+  "data_manifest": []
+}

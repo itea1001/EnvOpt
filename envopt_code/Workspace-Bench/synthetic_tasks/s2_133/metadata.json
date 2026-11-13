@@ -1,0 +1,14 @@
+{
+  "absolute_id": "s2_133",
+  "id": "s2_133",
+  "file_system": "运营人员",
+  "persona": "Operations Manager",
+  "job": "Operations Manager",
+  "user_profit": "运营人员",
+  "task": "Four A/B creative performance files cover the 618 banner, feed ads, moments ads and splash ads, beginning with `ab_testing_creative_performance_618_campaign_banner.json`. Combine them into one file keyed by placement, giving the winning variant and its margin for each. Mark any test whose margin is too small to call, rather than reporting a winner the data does not support.",
+  "output_files": [
+    "ab_creative_results.json"
+  ],
+  "task_diff": "medium",
+  "data_manifest": []
+}

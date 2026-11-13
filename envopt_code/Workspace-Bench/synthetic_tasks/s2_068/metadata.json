@@ -1,0 +1,14 @@
+{
+  "absolute_id": "s2_068",
+  "id": "s2_068",
+  "file_system": "开发人员",
+  "persona": "Backend Developer",
+  "job": "Backend Developer",
+  "user_profit": "开发人员",
+  "task": "Using `vulnerability_scan_report_2025Q1.md`, `dependency-audit-2025Q1.md` and `sbom-2025Q1.json`, list the dependencies carrying a known vulnerability. Check each one's licence against `approved_licenses.md` and mark anything not approved, since a licence problem and a security problem need different people to sign off.",
+  "output_files": [
+    "dependency_upgrade_plan.doc"
+  ],
+  "task_diff": "medium",
+  "data_manifest": []
+}

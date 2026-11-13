@@ -1,0 +1,14 @@
+{
+  "absolute_id": "s2_008",
+  "id": "s2_008",
+  "file_system": "产品人员",
+  "persona": "Product Manager",
+  "job": "Product Manager",
+  "user_profit": "产品人员",
+  "task": "Four interaction documents were downloaded to the desktop, `interaction_document_6.txt` through `interaction_document_13.txt`. Merge their design specifications into one standardised set, keeping the dimensions consistent across all four so the same measurement is not expressed two ways. Save the result to the desktop as a plain text report.",
+  "output_files": [
+    "interaction_documents_merged.txt"
+  ],
+  "task_diff": "medium",
+  "data_manifest": []
+}

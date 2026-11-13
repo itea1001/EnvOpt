@@ -1,0 +1,14 @@
+{
+  "absolute_id": "s2_046",
+  "id": "s2_046",
+  "file_system": "开发人员",
+  "persona": "Backend Developer",
+  "job": "Backend Developer",
+  "user_profit": "开发人员",
+  "task": "Check `users_seed.sql`, `products_seed.sql` and `test_data.sql` against the schema in the migrations: does every seeded column actually exist, and does every column the schema marks as required get a value? Report the two kinds of problem separately, since a seed referencing a dropped column fails loudly and a seed omitting a required column fails only under constraint checking.",
+  "output_files": [
+    "seed_consistency.md"
+  ],
+  "task_diff": "easy",
+  "data_manifest": []
+}

@@ -1,0 +1,14 @@
+{
+  "absolute_id": "s2_165",
+  "id": "s2_165",
+  "file_system": "行政/后勤人员",
+  "persona": "Logistics Manager",
+  "job": "Logistics Manager",
+  "user_profit": "行政/后勤人员",
+  "task": "Summarise the kpi_dashboard_for_general_manager_chen folder into one sheet showing each metric, its latest value and its trend. Where a metric appears in more than one file with different values, show both and say which file is more recent, since a dashboard assembled from stale parts is worse than no dashboard.",
+  "output_files": [
+    "kpi_dashboard_summary.png"
+  ],
+  "task_diff": "easy",
+  "data_manifest": []
+}

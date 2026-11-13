@@ -1,0 +1,14 @@
+{
+  "absolute_id": "s2_136",
+  "id": "s2_136",
+  "file_system": "运营人员",
+  "persona": "Operations Manager",
+  "job": "Operations Manager",
+  "user_profit": "运营人员",
+  "task": "Using `media_coverage_monitoring_summary_2024_10.xlsx` and `brand_voice_volume_analysis_report_2024q3.xlsx`, work out whether coverage volume and brand voice volume move together over the period they share. Identify the months where they diverge and say which of the two led the other.",
+  "output_files": [
+    "media_coverage_summary.xlsx"
+  ],
+  "task_diff": "medium",
+  "data_manifest": []
+}

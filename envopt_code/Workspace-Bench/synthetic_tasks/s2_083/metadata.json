@@ -1,0 +1,14 @@
+{
+  "absolute_id": "s2_083",
+  "id": "s2_083",
+  "file_system": "研究人员",
+  "persona": "Researcher",
+  "job": "Researcher",
+  "user_profit": "研究人员",
+  "task": "Summarise `rag_auc_ping_ce_report.md` for someone who has not read it.",
+  "output_files": [
+    "rag_summary.txt"
+  ],
+  "task_diff": "easy",
+  "data_manifest": []
+}

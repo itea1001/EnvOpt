@@ -1,0 +1,425 @@
+diff --git a/evaluation/baselines/ClaudeCode.js b/evaluation/baselines/ClaudeCode.js
+index 74b937c..256a9bd 100644
+--- a/evaluation/baselines/ClaudeCode.js
++++ b/evaluation/baselines/ClaudeCode.js
+@@ -103,10 +103,20 @@ function matchesPattern(str, pattern) {
+ function buildEnv(customProvider) {
+   const env = { ...process.env };
+   if (customProvider) {
+-    env.ANTHROPIC_AUTH_TOKEN = customProvider.apiKey;
+-    env.ANTHROPIC_API_KEY = customProvider.apiKey;
+-    env.ANTHROPIC_BASE_URL = customProvider.baseUrl;
+-    env.ANTHROPIC_MODEL = customProvider.modelName;
++    const key = customProvider.apiKey;
++    if (key && String(key).trim()) {
++      // API-key mode (metered) — unchanged behavior for keyed models.
++      env.ANTHROPIC_AUTH_TOKEN = key;
++      env.ANTHROPIC_API_KEY = key;
++      if (customProvider.baseUrl) env.ANTHROPIC_BASE_URL = customProvider.baseUrl;
++    } else {
++      // No key -> subscription mode: defer auth to the mounted ~/.claude creds.
++      // These vars outrank the subscription, so they must NOT be set (even empty).
++      delete env.ANTHROPIC_API_KEY;
++      delete env.ANTHROPIC_AUTH_TOKEN;
++      delete env.ANTHROPIC_BASE_URL;
++    }
++    if (customProvider.modelName) env.ANTHROPIC_MODEL = customProvider.modelName;
+   }
+   env.CLAUDE_DEBUG = 'false';
+   env.ANTHROPIC_DEBUG = 'false';
+diff --git a/evaluation/package-lock.json b/evaluation/package-lock.json
+index ae8d5ca..0a9fd3d 100644
+--- a/evaluation/package-lock.json
++++ b/evaluation/package-lock.json
+@@ -8,7 +8,8 @@
+         "@anthropic-ai/claude-agent-sdk": "^0.2.107",
+         "docx": "^9.6.1",
+         "exceljs": "^4.4.0",
+-        "pdfkit": "^0.18.0"
++        "pdfkit": "^0.18.0",
++        "pptxgenjs": "^4.0.1"
+       }
+     },
+     "node_modules/@anthropic-ai/claude-agent-sdk": {
+@@ -1532,6 +1533,12 @@
+         "url": "https://opencollective.com/express"
+       }
+     },
++    "node_modules/https": {
++      "version": "1.0.0",
++      "resolved": "https://registry.npmjs.org/https/-/https-1.0.0.tgz",
++      "integrity": "sha512-4EC57ddXrkaF0x83Oj8sM6SLQHAWXw90Skqu2M4AEWENZ3F02dFJE/GARA8igO79tcgYqGrD7ae4f5L3um2lgg==",
++      "license": "ISC"
++    },
+     "node_modules/iconv-lite": {
+       "version": "0.7.2",
+       "resolved": "https://registry.npmjs.org/iconv-lite/-/iconv-lite-0.7.2.tgz",
+@@ -1568,6 +1575,21 @@
+       ],
+       "license": "BSD-3-Clause"
+     },
++    "node_modules/image-size": {
++      "version": "1.2.1",
++      "resolved": "https://registry.npmjs.org/image-size/-/image-size-1.2.1.tgz",
++      "integrity": "sha512-rH+46sQJ2dlwfjfhCyNx5thzrv+dtmBIhPHk0zgRUukHzZ/kRueTJXoYYsclBaKcSMBWuGbOFXtioLpzTb5euw==",
++      "license": "MIT",
++      "dependencies": {
++        "queue": "6.0.2"
++      },
++      "bin": {
++        "image-size": "bin/image-size.js"
++      },
++      "engines": {
++        "node": ">=16.x"
++      }
++    },
+     "node_modules/immediate": {
+       "version": "3.0.6",
+       "resolved": "https://registry.npmjs.org/immediate/-/immediate-3.0.6.tgz",
+@@ -2056,6 +2078,33 @@
+         "browserify-zlib": "^0.2.0"
+       }
+     },
++    "node_modules/pptxgenjs": {
++      "version": "4.0.1",
++      "resolved": "https://registry.npmjs.org/pptxgenjs/-/pptxgenjs-4.0.1.tgz",
++      "integrity": "sha512-TeJISr8wouAuXw4C1F/mC33xbZs/FuEG6nH9FG1Zj+nuPcGMP5YRHl6X+j3HSUnS1f3at6k75ZZXPMZlA5Lj9A==",
++      "license": "MIT",
++      "dependencies": {
++        "@types/node": "^22.8.1",
++        "https": "^1.0.0",
++        "image-size": "^1.2.1",
++        "jszip": "^3.10.1"
++      }
++    },
++    "node_modules/pptxgenjs/node_modules/@types/node": {
++      "version": "22.20.0",
++      "resolved": "https://registry.npmjs.org/@types/node/-/node-22.20.0.tgz",
++      "integrity": "sha512-QWlFW2wf3nTjC13/DqRnBpR4ZO36VJH/JVBkA/vcnmbTBNQIlnObqyqZE1tUR7+Ni23Lda8R1BxMfbXRpCUx5g==",
++      "license": "MIT",
++      "dependencies": {
++        "undici-types": "~6.21.0"
++      }
++    },
++    "node_modules/pptxgenjs/node_modules/undici-types": {
++      "version": "6.21.0",
++      "resolved": "https://registry.npmjs.org/undici-types/-/undici-types-6.21.0.tgz",
++      "integrity": "sha512-iwDZqg0QAGrg9Rav5H4n0M64c3mkR59cJ6wQp+7C4nI0gsmExaedaYLNO44eT4AtBBwjbTiGPMlt2Md0T9H9JQ==",
++      "license": "MIT"
++    },
+     "node_modules/process-nextick-args": {
+       "version": "2.0.1",
+       "resolved": "https://registry.npmjs.org/process-nextick-args/-/process-nextick-args-2.0.1.tgz",
+@@ -2090,6 +2139,15 @@
+         "url": "https://github.com/sponsors/ljharb"
+       }
+     },
++    "node_modules/queue": {
++      "version": "6.0.2",
++      "resolved": "https://registry.npmjs.org/queue/-/queue-6.0.2.tgz",
++      "integrity": "sha512-iHZWu+q3IdFZFX36ro/lKBkSvfkztY5Y7HMiPlOUjhupPcG2JMfst2KKEpu5XndviX/3UhFbRngUPNKtgvtZiA==",
++      "license": "MIT",
++      "dependencies": {
++        "inherits": "~2.0.3"
++      }
++    },
+     "node_modules/range-parser": {
+       "version": "1.2.1",
+       "resolved": "https://registry.npmjs.org/range-parser/-/range-parser-1.2.1.tgz",
+diff --git a/evaluation/package.json b/evaluation/package.json
+index 939a0aa..2831a7d 100644
+--- a/evaluation/package.json
++++ b/evaluation/package.json
+@@ -3,6 +3,7 @@
+     "@anthropic-ai/claude-agent-sdk": "^0.2.107",
+     "docx": "^9.6.1",
+     "exceljs": "^4.4.0",
+-    "pdfkit": "^0.18.0"
++    "pdfkit": "^0.18.0",
++    "pptxgenjs": "^4.0.1"
+   }
+ }
+diff --git a/evaluation/src/agent_as_a_judge.py b/evaluation/src/agent_as_a_judge.py
+index 443c3dc..d360416 100644
+--- a/evaluation/src/agent_as_a_judge.py
++++ b/evaluation/src/agent_as_a_judge.py
+@@ -285,8 +285,13 @@ def evaluate_task(
+     api_key = eval_cfg.get("apiKey")
+     model_name = eval_cfg.get("model_name") or model or "unknown"
+ 
+-    if not base_url or not model or not api_key:
+-        return {"error": "Missing baseUrl, model, or apiKey in eval YAML", "success": False}
++    # Only the model is required. baseUrl/apiKey are empty in subscription mode, where
++    # ClaudeCode.js (:105-117) drops ANTHROPIC_API_KEY/AUTH_TOKEN/BASE_URL and falls back to the
++    # mounted ~/.claude credentials — the same path the target agent already uses. The old check
++    # assumed an external provider (qwen via dashscope) and silently returned here for every
++    # task, producing zero judge output.
++    if not model:
++        return {"error": "Missing model in eval YAML", "success": False}
+ 
+     task_id = os.path.basename(task_dir)
+     kind = _ae._detect_agent_kind(task_dir)
+diff --git a/evaluation/src/agent_eval.py b/evaluation/src/agent_eval.py
+index 76f2b97..c5f0749 100644
+--- a/evaluation/src/agent_eval.py
++++ b/evaluation/src/agent_eval.py
+@@ -64,9 +64,20 @@ def _safe_load_json(path: str) -> Optional[Json]:
+         return None
+ 
+ 
++def _expand_env(value: Any) -> Any:
++    if isinstance(value, str):
++        return os.path.expandvars(value)
++    if isinstance(value, list):
++        return [_expand_env(v) for v in value]
++    if isinstance(value, dict):
++        return {k: _expand_env(v) for k, v in value.items()}
++    return value
++
++
+ def _read_yaml(path: str) -> Dict[str, Any]:
+     with open(path, "r", encoding="utf-8") as f:
+-        return yaml.safe_load(f) or {}
++        obj = yaml.safe_load(f) or {}
++    return _expand_env(obj)
+ 
+ 
+ # -----------------------------------------------------------------------------
+@@ -779,7 +790,7 @@ def _chat_completions(
+     messages: List[Dict[str, Json]],
+     timeout_s: int = 120,
+     max_retries: int = 10,
+-    total_timeout_s: float = 200.0,
++    total_timeout_s: float = 3600.0,
+ ) -> Tuple[Optional[Dict[str, Json]], Optional[Dict[str, Json]], str]:
+     """
+     调用 OpenAI 兼容的 /chat/completions（使用 urllib，避免额外依赖）。
+@@ -798,10 +809,12 @@ def _chat_completions(
+     last_err = ""
+     
+     for attempt in range(max_retries + 1):
++        sys.stderr.write(f"[judge-debug] attempt {attempt}: POST {len(json.dumps(payload).encode('utf-8'))} bytes, elapsed {time.time()-start_time:.0f}s -> sending...\n"); sys.stderr.flush()  # DEBUG
+         req = urllib.request.Request(url, data=json.dumps(payload).encode("utf-8"), headers=headers, method="POST")
+         try:
+             with urllib.request.urlopen(req, timeout=timeout_s) as resp:
+                 body = resp.read().decode("utf-8", errors="ignore")
++            sys.stderr.write(f"[judge-debug] attempt {attempt}: response received in {time.time()-start_time:.0f}s\n"); sys.stderr.flush()  # DEBUG
+         except urllib.error.HTTPError as e:
+             try:
+                 body = e.read().decode("utf-8", errors="ignore")
+@@ -1489,7 +1502,7 @@ def evaluate_task(
+                 api_key=str(api_key),
+                 model=str(model),
+                 messages=messages,
+-                timeout_s=180,
++                timeout_s=600,
+                 max_retries=max_retries,
+             )
+             if full is not None:
+@@ -1606,10 +1619,11 @@ if __name__ == "__main__":
+     p.add_argument("--task-dir", required=True, help="Path to task execution result directory")
+     p.add_argument("--eval-yaml", required=True, help="Path to eval LLM YAML config file")
+     p.add_argument("--overwrite", action="store_true", help="Overwrite existing evaluation results")
+-    p.add_argument("--max-retries", type=int, default=6, help="Max retries for LLM API calls")
++    p.add_argument("--max-retries", type=int, default=1000, help="Max retries for LLM API calls (rate-limit retries until total_timeout)")
+     p.add_argument("--max-str-len", type=int, default=2000, help="Max length for each string field in prompt")
+     p.add_argument("--max-trace-items", type=int, default=30, help="Max items in each trace list")
+     p.add_argument("--max-output-files", type=int, default=10, help="Max output files to include in prompt")
++    p.add_argument("--workers", type=int, default=1, help="Concurrent judge workers (1 = sequential)")
+     args = p.parse_args()
+     
+     # 遍历 task_dir 下每一个子目录进行评估
+@@ -1627,10 +1641,8 @@ if __name__ == "__main__":
+     if not task_dirs:
+         task_dirs = [args.task_dir]
+     
+-    all_results = []
+-    for single_task_dir in tqdm(task_dirs):
+-        print(f"Evaluating task: {single_task_dir}", file=sys.stderr)
+-        result = evaluate_task(
++    def _judge_one(single_task_dir):
++        return evaluate_task(
+             task_dir=single_task_dir,
+             eval_yaml_path=args.eval_yaml,
+             overwrite=args.overwrite,
+@@ -1639,8 +1651,20 @@ if __name__ == "__main__":
+             max_trace_items=args.max_trace_items,
+             max_output_files=args.max_output_files,
+         )
+-        all_results.append(result)
+-        print(json.dumps(result, ensure_ascii=False, indent=2))
++
++    all_results = []
++    if args.workers and args.workers > 1:
++        from concurrent.futures import ThreadPoolExecutor, as_completed
++        with ThreadPoolExecutor(max_workers=args.workers) as _ex:
++            _futs = [_ex.submit(_judge_one, d) for d in task_dirs]
++            for _f in tqdm(as_completed(_futs), total=len(_futs)):
++                all_results.append(_f.result())
++    else:
++        for single_task_dir in tqdm(task_dirs):
++            print(f"Evaluating task: {single_task_dir}", file=sys.stderr)
++            result = _judge_one(single_task_dir)
++            all_results.append(result)
++            print(json.dumps(result, ensure_ascii=False, indent=2))
+     
+     # 如果有多个任务，输出汇总结果
+     if len(all_results) > 1:
+diff --git a/evaluation/src/agent_runner.py b/evaluation/src/agent_runner.py
+index bb8530d..e42f354 100644
+--- a/evaluation/src/agent_runner.py
++++ b/evaluation/src/agent_runner.py
+@@ -20,6 +20,36 @@ import agent_as_a_judge
+ 
+ Json = Any
+ 
++# --- Agent-agnostic transient-error retry -------------------------------------
++# Some model endpoints intermittently return a transient failure (e.g. "model at
++# capacity", rate limits, overloaded/503) that fails the whole task even though a
++# re-run would succeed. We retry run_fn on these — identically for EVERY agent — so
++# the benchmark measures the agent, not luck with a flaky endpoint. Clean runs and
++# genuine (non-transient) errors are untouched: only an error-status result whose
++# message matches a transient marker is retried. Tune with WB_TRANSIENT_RETRIES
++# (default 3); set 0 to disable for a pure, no-retry measurement.
++_TRANSIENT_RETRIES = int(os.environ.get("WB_TRANSIENT_RETRIES", "3"))
++_TRANSIENT_MARKERS = (
++    "at capacity",
++    "try a different model",
++    "rate limit",
++    "rate_limit",
++    "overloaded",
++    "temporarily unavailable",
++    "service unavailable",
++    "try again later",
++    "turn.failed",
++)
++
++def _is_transient_error(run_res: Json) -> bool:
++    if not isinstance(run_res, dict):
++        return False
++    msg = run_res.get("errorMessage")
++    if not isinstance(msg, str) or not msg:
++        return False
++    low = msg.lower()
++    return any(m in low for m in _TRANSIENT_MARKERS)
++
+ def _repo_root() -> Path:
+     return Path(__file__).resolve().parent
+ 
+@@ -539,17 +569,28 @@ def _run_one_case(
+     raw_dir = os.path.join(case_dir, "raw")
+     _ensure_dir(raw_dir)
+ 
+-    case_started = time.time()
+     api_provider2 = dict(api_provider) if isinstance(api_provider, dict) else {}
+     api_provider2["__expected_output_files__"] = expected_files
+-    run_res = run_fn(
+-        prompt=prompt,
+-        work_dir=work_dir,
+-        sandbox_dir=case_dir,
+-        timeout_s=timeout_sec,
+-        api_provider=api_provider2,
+-    )
+-    duration_ms = int((time.time() - case_started) * 1000)
++    # Run the agent; retry ONLY on transient infra errors (agent-agnostic, see top).
++    attempt = 0
++    while True:
++        case_started = time.time()
++        run_res = run_fn(
++            prompt=prompt,
++            work_dir=work_dir,
++            sandbox_dir=case_dir,
++            timeout_s=timeout_sec,
++            api_provider=api_provider2,
++        )
++        duration_ms = int((time.time() - case_started) * 1000)
++        st = str(run_res.get("status") or "").strip().lower()
++        if st != "error" or attempt >= _TRANSIENT_RETRIES or not _is_transient_error(run_res):
++            break
++        attempt += 1
++        delay = min(30.0, 5.0 * (2 ** (attempt - 1)))
++        snippet = str(run_res.get("errorMessage") or "")[:160].replace("\n", " ")
++        print(f"[transient-retry] case {case_id} attempt {attempt}/{_TRANSIENT_RETRIES} after transient error; retry in {delay:.0f}s :: {snippet}", flush=True)
++        time.sleep(delay)
+ 
+     status_raw = str(run_res.get("status") or "").strip().lower()
+     if status_raw not in {"ok", "timeout", "error"}:
+diff --git a/evaluation/src/agents/claudecode.py b/evaluation/src/agents/claudecode.py
+index 3b02680..ff280b0 100644
+--- a/evaluation/src/agents/claudecode.py
++++ b/evaluation/src/agents/claudecode.py
+@@ -67,11 +67,20 @@ def _parse_usage_from_stdout(stdout_text: str) -> Tuple[Dict[str, int], Optional
+             continue
+         pt = u.get("input_tokens") if isinstance(u.get("input_tokens"), int) else u.get("prompt_tokens")
+         ct = u.get("output_tokens") if isinstance(u.get("output_tokens"), int) else u.get("completion_tokens")
++        cr = u.get("cache_read_input_tokens")
++        cw = u.get("cache_creation_input_tokens")
+         if isinstance(pt, int):
+             usage_total["prompt_tokens"] += pt
+         if isinstance(ct, int):
+             usage_total["completion_tokens"] += ct
+-    usage_total["total_tokens"] = usage_total["total_tokens"] or (usage_total["prompt_tokens"] + usage_total["completion_tokens"])
++        if isinstance(cr, int):
++            usage_total["cache_read"] += cr
++        if isinstance(cw, int):
++            usage_total["cache_write"] += cw
++    usage_total["total_tokens"] = (
++        usage_total["prompt_tokens"] + usage_total["completion_tokens"]
++        + usage_total["cache_read"] + usage_total["cache_write"]
++    )
+     return usage_total, provider, model
+ 
+ 
+diff --git a/evaluation/src/agents/codex.py b/evaluation/src/agents/codex.py
+index 88962da..d0591d5 100644
+--- a/evaluation/src/agents/codex.py
++++ b/evaluation/src/agents/codex.py
+@@ -601,13 +601,14 @@ def run(
+         api_key = None
+     if not model:
+         return {"status": "error", "paths": [], "errorMessage": "Missing model in api_provider"}
+-    if not api_key:
+-        return {"status": "error", "paths": [], "errorMessage": "Missing CODEX_API_KEY/apiProvider.apiKey for Codex harness"}
++    # No api key -> subscription mode: run Codex's default provider with the ChatGPT
++    # login in CODEX_HOME (mounted) instead of the custom api-key "ripbench" provider.
++    use_subscription = api_key is None
+ 
+     adapter_server = None
+     provider_base_url = base_url
+     provider_api_key = api_key
+-    if _should_use_chat_adapter(model):
++    if not use_subscription and _should_use_chat_adapter(model):
+         adapter_server, provider_base_url = _start_chat_adapter(target_base_url=base_url, api_key=api_key, model=model, raw_dir=raw_dir)
+         provider_api_key = "local-adapter"
+ 
+@@ -628,12 +629,15 @@ def run(
+         last_message_path,
+         "--model",
+         model,
+-        "-c",
+-        "model_provider=\"ripbench\"",
+-        "-c",
+-        f"model_providers.ripbench={_provider_config_arg(base_url=provider_base_url)}",
+-        "-",
+     ]
++    if not use_subscription:
++        cmd += [
++            "-c",
++            "model_provider=\"ripbench\"",
++            "-c",
++            f"model_providers.ripbench={_provider_config_arg(base_url=provider_base_url)}",
++        ]
++    cmd += ["-"]
+     _write_json(
+         os.path.join(raw_dir, "codex_invocation.json"),
+         {
+@@ -648,7 +652,8 @@ def run(
+     )
+ 
+     env = os.environ.copy()
+-    env["CODEX_API_KEY"] = provider_api_key
++    if not use_subscription:
++        env["CODEX_API_KEY"] = provider_api_key
+     used_timeout = timeout_s if isinstance(timeout_s, (int, float)) and timeout_s > 0 else None
+     stdout_text = ""
+     stderr_text = ""

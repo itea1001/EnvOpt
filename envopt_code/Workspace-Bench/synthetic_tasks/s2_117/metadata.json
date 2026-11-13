@@ -1,0 +1,15 @@
+{
+  "absolute_id": "s2_117",
+  "id": "s2_117",
+  "file_system": "研究人员",
+  "persona": "Researcher",
+  "job": "Researcher",
+  "user_profit": "研究人员",
+  "task": "Meeting notes are scattered across three locations under different naming conventions. The work folder holds smart minutes from 13 January, 20 January and 11 February plus a technology sharing note from 7 February; the documents meetings folder holds two further weekly smart minutes. Some are the same session saved twice under different names and some are genuinely separate meetings, and the filenames will not tell you which. Work out which are duplicates by reading them, and build one decision log in date order recording what was decided, who owns it, and which file it came from. Where two copies of the same session disagree about a decision, record both readings and say which file you consider authoritative and why. Finish with the duplicate groups you identified so somebody can tidy the folders afterwards.",
+  "output_files": [
+    "decision_log.doc",
+    "duplicate_groups.png"
+  ],
+  "task_diff": "hard",
+  "data_manifest": []
+}
